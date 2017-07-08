@@ -52,16 +52,18 @@ Identified Smik_2 (ultra-scaffold 2) as significant. Within this ultra-scaffold 
 
 * The feature IDs are as follows
 
-   1. >lcl|Smik_2.235 [REAL/AA; YGOB:Anc_4.177; HMM:0.15; SCER:YDL024C; SYNT:YDL024C/0/YBR094W; LEN:1404; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+   >>lcl|Smik_2.235 [REAL/AA; YGOB:Anc_4.177; HMM:0.15; SCER:YDL024C; SYNT:YDL024C/0/YBR094W; LEN:1404; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
 
-   1. >lcl|Smik_2.234 [REAL/AA; YGOB:Anc_4.177; HMM:0.16; SCER:YDL024C; SYNT:YHR215W/0/YDL024C; LEN:1404; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+   >>lcl|Smik_2.234 [REAL/AA; YGOB:Anc_4.177; HMM:0.16; SCER:YDL024C; SYNT:YHR215W/0/YDL024C; LEN:1404; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
 
-   1. >lcl|Smik_2.233 [REAL/AA; YGOB:Anc_8.459; HMM:0.72; SCER:YHR215W; SYNT:YBR091C/0/YDL024C; LEN:1404; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+   >>lcl|Smik_2.233 [REAL/AA; YGOB:Anc_8.459; HMM:0.72; SCER:YHR215W; SYNT:YBR091C/0/YDL024C; LEN:1404; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
 
 * Apparently the above annotation are not helpful / misleading. Instead, I copy/paste the lines from the Sensu Stricto Genome Resource website's [annotation](http://www.saccharomycessensustricto.org/current/Smik/Smik.gff) page.
 
-   > 2	Scannell_and Zill 2011	CDS	410722	412125	Anc_8.459	-	0	ID=1690892788879555520;ygobhmm=0.72;none=;manual=-1e+100;SGD=YHR215W;Gene=Smik_2.233;Parent=Smik_2.233;kaks2=-1e+100;struct=2;ltr=0.47;hsp=0.0;hcnf=0;aa=0.0;lda=-1e+100;rna=-1e+100;synt=0;YGOB=Anc_8.459;stop=0;introns=0;BLAST=YAR071W;ncbi=1e+100;kaks=1e+100;nnnn=-1e+100;length=1404;hmm=-1e+100;Name=Smik_2.233;ty=1e+100
-   > 2	Scannell_and Zill 2011	CDS	412610	414013	Anc_4.177	-	0	ID=1690892788879540476;ygobhmm=0.16;none=;manual=-1e+100;SGD=YDL024C;Gene=Smik_2.234;Parent=Smik_2.234;kaks2=-1e+100;struct=2;ltr=1.8;hsp=0.0;hcnf=0;aa=0.0;lda=-1e+100;rna=-1e+100;synt=0;YGOB=Anc_4.177;stop=0;introns=0;BLAST=YBR093C;ncbi=1e+100;kaks=1e+100;nnnn=-1e+100;length=1404;hmm=-1e+100;Name=Smik_2.234;ty=1e+100
-   > 2	Scannell_and Zill 2011	CDS	414455	415858	Anc_4.177	-	0	ID=1690892788879540471;ygobhmm=0.15;none=;manual=-1e+100;SGD=YDL024C;Gene=Smik_2.235;Parent=Smik_2.235;kaks2=-1e+100;struct=2;ltr=0.12;hsp=0.0;hcnf=0;aa=0.0;lda=-1e+100;rna=-1e+100;synt=0;YGOB=Anc_4.177;stop=0;introns=0;BLAST=YBR092C;ncbi=1e+100;kaks=1e+100;nnnn=-1e+100;length=1404;hmm=-1e+100;Name=Smik_2.235;ty=1e+100
+   > CDS	410722	412125	Anc_8.459	-	0	ID=1690892788879555520;ygobhmm=0.72;none=;manual=-1e+100;SGD=YHR215W;Gene=Smik_2.233;Parent=Smik_2.233;kaks2=-1e+100;struct=2;ltr=0.47;hsp=0.0;hcnf=0;aa=0.0;lda=-1e+100;rna=-1e+100;synt=0;YGOB=Anc_8.459;stop=0;introns=0;BLAST=YAR071W;ncbi=1e+100;kaks=1e+100;nnnn=-1e+100;length=1404;hmm=-1e+100;Name=Smik_2.233;ty=1e+100
 
-* Finally, the sequences of these three genes are stored in result/Smik_PHO5_ortholog.fa
+   > CDS	412610	414013	Anc_4.177	-	0	ID=1690892788879540476;ygobhmm=0.16;none=;manual=-1e+100;SGD=YDL024C;Gene=Smik_2.234;Parent=Smik_2.234;kaks2=-1e+100;struct=2;ltr=1.8;hsp=0.0;hcnf=0;aa=0.0;lda=-1e+100;rna=-1e+100;synt=0;YGOB=Anc_4.177;stop=0;introns=0;BLAST=YBR093C;ncbi=1e+100;kaks=1e+100;nnnn=-1e+100;length=1404;hmm=-1e+100;Name=Smik_2.234;ty=1e+100
+
+   > CDS	414455	415858	Anc_4.177	-	0	ID=1690892788879540471;ygobhmm=0.15;none=;manual=-1e+100;SGD=YDL024C;Gene=Smik_2.235;Parent=Smik_2.235;kaks2=-1e+100;struct=2;ltr=0.12;hsp=0.0;hcnf=0;aa=0.0;lda=-1e+100;rna=-1e+100;synt=0;YGOB=Anc_4.177;stop=0;introns=0;BLAST=YBR092C;ncbi=1e+100;kaks=1e+100;nnnn=-1e+100;length=1404;hmm=-1e+100;Name=Smik_2.235;ty=1e+100
+
+* Finally, the sequences of these three genes are extracted by `grep "Smik\_2\.235\|Smik\_2\.234\|Smik\_2\.233" Smik.aa -A 1 > result/Smik_PHO5_ortholog.fa`
