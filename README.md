@@ -56,11 +56,11 @@ Build gene trees and compare it to the species tree to infer the relative timing
 
 1. Compile a new list of sequences
 
-  > _S. cerevisiae_, _S. mikatae_, _S. paradoxus_, _C. glabrata_, _K. lactis_, _A. gossypii_, _S. pombe_
+   - _S. cerevisiae_, _S. mikatae_, _S. paradoxus_, _C. glabrata_, _K. lactis_, _A. gossypii_, _S. pombe_
 
 1. Construct gene trees
 
-  > Try JalView first. Need to use bootstrap. Compare the resulting tree with PhylomeDB
+   - Try JalView first. Need to use bootstrap. Compare the resulting tree with PhylomeDB
 
 1. Interpret results
 
