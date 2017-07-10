@@ -44,6 +44,26 @@ Approach
 Notes
 =====
 
+## 9 juillet 2017
+
+### Planning for next step
+
+#### Goal
+
+Build gene trees and compare it to the species tree to infer the relative timing of duplication to that of speciation
+
+#### Approach
+
+1. Compile a new list of sequences
+
+  > _S. cerevisiae_, _S. mikatae_, _S. paradoxus_, _C. glabrata_, _K. lactis_, _A. gossypii_, _S. pombe_
+
+1. Construct gene trees
+
+  > Try JalView first. Need to use bootstrap. Compare the resulting tree with PhylomeDB
+
+1. Interpret results
+
 ## 7-8 juillet 2017 
 
 ### Sequence retrieval and alignment
