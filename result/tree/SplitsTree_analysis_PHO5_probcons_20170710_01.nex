@@ -1,0 +1,277 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=16;
+TAXLABELS
+[1] 'Scer|YBR093C'
+[2] 'Scer|YDL024C'
+[3] 'Scer|YBR092C'
+[4] 'Scer|YHR215W'
+[5] 'Scer|YAR071W'
+[6] 'Smik_2.233'
+[7] 'Smik_2.234'
+[8] 'Smik_2.235'
+[9] 'Klac|KLLA0C19338g'
+[10] 'Klac|KLLA0B00286g'
+[11] 'Klac|KLLA0A00176g'
+[12] 'Klac|KLLA0D00258g'
+[13] 'Klac|KLLA0E24949g'
+[14] 'Spom|SPBP4G3.02'
+[15] 'Spom|SPBC21H7.03c'
+[16] 'Spom|SPBC428.03c'
+;
+END; [Taxa]
+
+BEGIN Characters;
+DIMENSIONS nchar=532;
+FORMAT
+	datatype='protein' missing=x gap=- symbols="arndcqeghilkmfpstwyvz" labels=no transpose=no interleave=no;
+MATRIX
+m---------------fksvv-ysi-laaslanagtipl---gkl-a-dvdkigtqkdifpflggagpyysfpgdygisrdlpegcemkqlqmvgrhgeryptvslaktikstwyklsnytr-qfngslsflndd-y----effirddddlemettfansddvlnpytgemnakrhardflaqygymvenqtsfavftsnskrchdtaqyfidgl-gdqf--n-i--tlqtvseaesagantlsacnscpawdyda-----nddivneydttylddiakrlnke-nkgl--nlt--stdastlfswcafevnakgysdvcdiftkdelvhysyyqdlhtyyhegpgydiiksvgsnlfnasvkllkqs--eiqdqkvwlsfthdtdilnflttagiiddkn---nltaeyvpfmgnt-fhrswyvpqgarvytekfqcsnd-tyvryvindavvpietcstgpgfs-ceindfydyaek--rvagt-dflkvcnvssvsnsteltfywdwntthynasll----------rq
+m---------------vkpvi-faiclgvllskalsipl---rsf-a-dieligsqkslfpflggsapyfsfpanygiptdipegcrltqvqmigrhgeryptrseakdifevwykisnytg-kyegslsflnng-y----effipdesllemettlqnsidvlnpytgemnakrhareflakygklmenctnfpifttnskriydtaqyfaeal-gdgf--n-i--slqtlsensssgantlaaksscpnwnsna-----nndilmsysrdylenisdrlnde-nkgl--nls--rkdaaalfswcafelnakgysnicdifsaaelihysyetdltsfyqngpgykliksiganlfnatvklirqs--ahldqkvwlsfthdtdilnylttagliddtr---nlttnhvpfrdhs-yhrswyipqgarvytekfqcsnd-syvryvvndavvpiescssgpgfs-ceegtfyeyakd--rlrgv-sfyedcdvskvskekeltfywdwnttrynaslv----------nq
+m---------------fksvv-ysv-laaalvnagtipl---gel-a-dvakigtqedifpflggagpyfsfpgdygisrdlpegcemkqlqmlarhgeryptyskgatimktwyklsnytr-qfngslsflndd-y----effirddddlemettfansdnvlnpytgemdakrhareflaqygymfenqtsfpifaasservhdtaqyfidgl-gdqf--n-i--slqtvseamsagantlsagnacpgwdeda-----nddildkydttylddiakrlnke-nkgl--nlt--skdantlfawcayelnargysdvcdiftedelvrysygqdlvsfyqdgpgydmirsvganlfnatlkllkqs--etqdlkvwlsfthdtdilnylttagiiddkn---nltaeyvpfmgnt-fhkswyvpqgarvytekfqcsnd-tyvryvindavvpietcstgpgfs-ceindfydyaek--rvagt-dflkvcnvssvsnvteltfywdwntthyndtll----------kq
+m---------------lksav-ysi-laaslvnagtipl---gkl-s-didkigtqteifpflggsgpyysfpgdygisrdlpescemkqvqmvgrhgeryptvskaksimttwyklsnytg-qfsgalsflndd-y----effirdtknlemettlansvnvlnpytgemnakrhardflaqygymvenqtsfavftsnsnrchdtaqyfidgl-gdkf--n-i--slqtiseaesagantlsahhscpawdddv-----nddilkkydtkylsgiakrlnke-nkgl--nlt--ssdantffawcayeinargysdicniftkdelvrfsygqdletyyqtgpgydvvrsvganlfnasvkllkes--evqdqkvwlsfthdtdilnylttigiiddqn---nltaehvpfment-fhrswyvpqgarvytekfqcsnd-tyvryvindavvpietcstgpgfs-ceindfygyaek--rvagt-dflkvcnvssvsnsteltffwdwntkhyndtll----------kq
+m---------------lksav-ysi-laaslvnagtipl---gkl-s-didkigtqteifpflggsgpyysfpgdygisrdlpescemkqvqmvgrhgeryptvskaksimttwyklsnytg-qfsgalsflndd-y----effirdtknlemettlansvnvlnpytgemnakrhardflaqygymvenqtsfavftsnsnrchdtaqyfidgl-gdkf--n-i--slqtiseaesagantlsahhscpawdddv-----nddilkkydtkylsgiakrlnke-nkgl--nlt--ssdantffawcayeinargysdicniftkdelvrfsygqdletyyqtgpgydvvrsvganlfnasvkllkes--evqdqkvwlsfthdtdilnylttigiiddkn---nltaehvpfment-fhrswyvpqgarvytekfqcsnd-tyvryvindavvpietcstgpgfs-ceindfydyaek--rvagt-dflkvcnvssvsnsteltffwdwntkhyndtll----------kq
+m---------------fksvv-ysv-laaslvnagtipl---gkm-a-diakigtqediipflggsgpyfsfpgdygisrdlpegcemkqlhmfarhgeryptfskgatllktwyklsnytg-tyngslsflndd-y----effirhhddlemettlansddvlnpytgemdskrhareflaqygymlenktsfpvfaasservhdtaqyfidgl-gdqf--n-i--slqtvseamsagantlsaanscpawdgda-----fddilsqydttylddiakrlnke-nkgl--nlt--stdsdnlfawcayelnargysdvcdiftkdelvrysygqdlvsfyqdgpgydmiksvganlfnatlklmkqs--emhdlkvwmnflhdcdilnylttvgiiddkn---tltadhvsfmnnt-yrkswyvpqgarfytekfqcsnd-tyvryvindavvplescstgpgfs-ceindfydyaek--rvagt-dflkvcnvssvsnvteltfywdwntthyndtll----------kq
+m---------------fksvv-ysv-laaslvnagtipl---gkm-a-diakigtqedifpflggagpyfsfpgdygisrdlpegcemkqlqmigrhgerypttskaksisktwyklsnytr-qfngtlsflndd-y----effirdandlemettldnsvdvlnpytgemnakkhareflaqygymvenqtmfavftsnskrchdtaqyfidgl-gdqf--n-i--slqtvsedesagantlsagyacpawdeda-----nddilekydttylddiakrlnke-nkgl--nlt--stdantlfawcayelnargysdvcdiftkdelvrysygqdlvsfyqdgpgydmiksvganlfnaslklmkqs--eiedqkvwlsfthdtdilnyltavgiiddkn---nltaeyvpfmgnt-fhkswyipqgarvytekfqcsnd-tyvryvindavvplescstgpgfs-ceikdfydyaek--rvagt-dflkvcnvssvsnvteltfywdwntthyngtll----------kq
+m---------------fnsil-ysi-liaslvnastipl---gkm-a-diakigtqedifpflggagpyfsfpgdygisrdlpegcemkqlqmigrhgerypttskaksisktwyklsnytr-qfngtlsflndd-y----effirdandlemettldnsvdvlnpytgemnakkhareflaqygymvenqtmfavftsnskrchdtaqyfidgl-gdqf--n-i--slqtvseamsagantlsacnscpawdydv-----ngdilekydttylddiakrlnke-nkgl--nlt--stdantlfawcayelnargysdvcdiftkdelvrysygqdletyyqesagydiiksvganlfnaslklmkqs--eiedqkvwlsfthdtdilnyltavgiiddkn---nltaeyvpfmgnt-fhrswyvpqgarvytekfqcsnd-tyvryvindavvpietcstgpgfs-ceindfydyaek--rvtrt-dflkvcnvssvsnsteltfywdwntthynasll----------rq
+m---------------nll-l-lti-iaia-egasiyny---gfs-e-nskkigtqehlfqylagnapyfkypldyginlpipehcelkqvqllarhgerypskskgaklsnvyqklqnytg-alngslsflnddny----hifwedtsqlelevtsknsldplnpytgeqsartharqfislygdlleenstlelfttnskrvhdtaaffaeel-dnav--kst--hmniisedsssgannlspgysclpwdede-----neeylskysseylediadrlnne-nknlplnlt--atdasslfvwcgfeisvkgysdacniftdaellhfsyeddlydyyqdgpghslakpigsllfnasvellkqs--deldqkvwlsfthdtdiinylatvglfdngk---klnassvpfldhi-yrkawmtpmaarlytekfqcsne-tfvrytlndavipiescssgpgfs-cpekefysyaek--kldgm-dfvkacdiksssnytslsfywdyesvnynasll----------iq
+m---------------ls-il-lsl-lslsgthaapiskd-ngtv-cyalnssttdesifpllngqgphydypqsfgipvevpdqctvehvqmlarhgeryptaskgklmialwdklkefqg-qyngpmevfn-d-y----effvsntkyfdqltn-stdvdpsnpyagaktaqhlgkyiaynygdlfsd--snpvftsssgrvhqtakyvvssl-eeel--d-iqldlqiiqenetsgansltpadscmtyngdl-----gdeyfenatlpyltdiknrwmkk-nsnl--nltlehddiellvdwcafetnvkgssavcdlferndlvaysyyanvnnfyrrgagnpmsnpigsvlvnasynlltqa--deldnkvwlsfshdtdiqqfisalglidngvt--eysldqvdfq-ni-qqlswvtpmggrifteklkcgna-syvryiindviipvpgctsgpgfs-cpiedfddyitn--rlngi-dyvsscevqqvsntteltfywdyneveyngpvs----------nk
+m---------------ls-il-vtf-lslssihaapiskd-ngtv-cyalksstadasifpflngqgphydypqsfgipvevpdqctvehvqmlarhgeryptaskgklmialwdklkvfqg-qfdgpleifn-d-y----effvsdtkyfdqltn-ssdvdpsnpymgsktaeilgkyiafnygelfgn--ytpvftsssgrvyqtakyavsal-eeel--n-vqldlqiiqenetagansltpgdscvsyngdl-----gdeyfenvtlsyltdiknrwmkk-nsnl--nltleqddiellvdwcafvtnikgsstvcdlferndliaysyysdvtnfygrglgnplvkpigsvllnasynlftqa--ddldnkvwlsfshdtdiqqfvsalglfdngvt--eysleqvefq-di-qklswvtpmggrifteklkcrns-syvryivndvvipvpgctsgpgfs-cpiedfddyiad--rlngi-dyvssceiqqvsniteltfywdyneveyngpvs----------nk
+mkqiknagsnklrlimls-il-lgl-lslsgthaapiskd-ngtvcy-alnnsttdesifsllngqgphydypqsfgipvevpdqctvehvqmlarhgeryptaskgklmialwdklkefqg-qyndplevfn-d-y----effvsntkyfdqltn-stdvdpsnpyagaktaqhlgkyiaynygdlfsd--snpvftsssgrvhqtakyvvssl-eeel--d-iqldlqiiqenetsgansltpadscmtyngdl-----gdeyfenatlpyltdiknrwmkk-nsnl--nltlehddiellvdwcafetnvkgssavcdlferndlvaysyyanvnnfyrrgagnpmsnpigsvlvnasynlltqa--deldnkvwlsfshdtdiqqfisalglidngvt--eysldqvdfq-ni-qqlswvtpmggrifteklkcgna-syvryiindviipvpgctsgpgfs-cpiedfddyitn--rlngi-dyvsscevqqvsntteltfywdyneveyngpvs----------nk
+m---------------vgfla-fls-vilsivhaipvitadvvaknl-ftrkemsqeaifpmlngeapyfpypetngisleipeqciieqvqmiarhaerfpkaakgekleimwnkfkemkg-efkgplaifn-e-y----eylvedniyldqmtn-ssnvdgsnpymgsktaqqlgnyiavhygeligd--slpifsssagrvyetaknviigl-qeelgfn-vdvqlqiisedqasgansltprnscknynsef-----akqvlgsvndsqlkkirerlmkk-nsql--plklknkdikqliswcayeinikgyspvcdlfgdedlvsysyfsdmenfynsglgnplakslgsvllnasyqllkes--ehlenkvwlsfthdtdiqhfvsaiglfddgae--rfqgeqvsfq-nifkrgswitpmgarlfteklrcrns-sfvryilndavipipgcssgpgls-cpfselssyikn--qtskt-nyvshceitevsnkteltffwdyndvdysrtpinykvsaildkte
+m---------------flqnlflgf-lavvcanaqfaef-----------tafdgkfdfkehltsrspy-hkpyfygpsidfpttckikqvhtlqrhgsrnptggnaafda---vgianfqqrllngsvpidy-s-vsgnplsfvptwtp---vie-aanadals-ssgrvelfdmgrqfyeryhelfna-styniytaaqqrvvdsalwygygmfgedv--h-nftnyilvsenatagsnslssynacpasdaddf----ttpaleawrnvymppirqrlnpy-fsny--nlt--nddilnlygicsyeialqdysefcklfnsvdflnfeyegdlsfsygmgnsvkwgsifggayanslanslrsv--enntqqvffafthdaniipvetalgfftdntpenplptsyqvhs-hs-mkasefvpfagnlitelfqcedskyyvrhlvneevfplsdcgfgpsntsdgmcelyaylnspvrvngtsngiqnfdtlcnasavaavyp------------------------y
+m---------------qlciislwf-laafivnadnvqf-----------edyesnfffkehlgtlspy-hepyfdgldsafpetceiqqvhllqrhgsrnptgdvtatdvyssqylnnfqekllngsipvnf-s-ypenplcfikqwtp---vid-aenadqls-srgrlelfdlgrqlyqryyklfds-yvydintaeqervvesakwftyglfgdkm--y-ektnfilisegkaaganslsmynacpvfkdnnfhknatdaahavwrnifiepivnrlakyfdssy--klt--indvrslfyiceyeiaikdhsdfcsiftpseflnfeydsdldqaygggpvsewastlggayinnladslrnvtnpdfdrkvflafthdsniipveaalgffpditpqnplptdkniyt-ys-qktssfvpfagnlitelffcsdskyyvrhlvnqqvyplidcgygpsgtsdglcelqaylnspiranstsngisifntecqarptnvtiy------------------------f
+m---------------klsgislwl-laasivhagksqf-----------eafenefyfkdhlgtisvy-hepyfngpttsfpescaikqvhllqrhgsrnptgddtatdvssaqyidifqnkllngsipvnf-s-ypenplyfvkhwtp---vik-aenadqls-ssgrielfdlgrqvferyyelfdt-dvydintaaqervvdsaewfsygmfgddm--q-nktnfivlpeddsaganslamyyscpvyednnidentteaahtswrnvflkpianrlnkyfdsgy--nlt--vsdvrslyyicvyeialrdnsdfcslftpseflnfeydsdldyaywggpasewastlggayvnnlannlrkgvnnasdrkvflafthdsqiipveaalgffpditpehplptdknift-ys-lktssfvpfagnlitelflcsdnkyyvrhlvnqqvypltdcgygpsgasdglcelsaylnssvrvnstsngianfnsqcqahstnvtvy------------------------y
+;
+END; [Characters]
+
+BEGIN Distances;
+DIMENSIONS ntax=16;
+FORMAT labels=left diagonal triangle=both;
+MATRIX
+[1] 'Scer|YBR093C'        0.0 0.34475374 0.13276231 0.1477516 0.14346895 0.18629551 0.12847966 0.113490365 0.47311828 0.5856833 0.59002167 0.59002167 0.6212121 0.7264368 0.7214612 0.716895
+[2] 'Scer|YDL024C'        0.34475374 0.0 0.35974303 0.36830837 0.36830837 0.37687367 0.34689507 0.35546038 0.47741935 0.62472886 0.6052061 0.62689805 0.61255413 0.74482757 0.7420091 0.7374429
+[3] 'Scer|YBR092C'        0.13276231 0.35974303 0.0 0.16916488 0.16488223 0.113490365 0.10492505 0.14132762 0.47741935 0.5943601 0.6030369 0.5986985 0.6103896 0.71954024 0.70547944 0.70776254
+[4] 'Scer|YHR215W'        0.1477516 0.36830837 0.16916488 0.0 0.004282655 0.21199143 0.15631692 0.1541756 0.48387095 0.6008677 0.6030369 0.6052061 0.6147186 0.737931 0.7214612 0.7123288
+[5] 'Scer|YAR071W'        0.14346895 0.36830837 0.16488223 0.004282655 0.0 0.20770878 0.15203427 0.14989293 0.48387095 0.5986985 0.6008677 0.6030369 0.6147186 0.737931 0.7214612 0.7123288
+[6] 'Smik_2.233'          0.18629551 0.37687367 0.113490365 0.21199143 0.20770878 0.0 0.13704497 0.17344753 0.4903226 0.5965293 0.61605203 0.6008677 0.6233766 0.7241379 0.7123288 0.70547944
+[7] 'Smik_2.234'          0.12847966 0.34689507 0.10492505 0.15631692 0.15203427 0.13704497 0.0 0.06852248 0.4688172 0.5878525 0.59002167 0.59219086 0.6147186 0.7264368 0.72602737 0.7191781
+[8] 'Smik_2.235'          0.113490365 0.35546038 0.14132762 0.1541756 0.14989293 0.17344753 0.06852248 0.0 0.47741935 0.5943601 0.5986985 0.5986985 0.61255413 0.73103446 0.7328767 0.7283105
+[9] 'Klac|KLLA0C19338g'   0.47311828 0.47741935 0.47741935 0.48387095 0.48387095 0.4903226 0.4688172 0.47741935 0.0 0.6013072 0.6013072 0.6013072 0.6 0.72517323 0.7201835 0.7201835
+[10] 'Klac|KLLA0B00286g'   0.5856833 0.62472886 0.5943601 0.6008677 0.5986985 0.5965293 0.5878525 0.5943601 0.6013072 0.0 0.14285715 0.012820513 0.491453 0.77522933 0.76309794 0.7562642
+[11] 'Klac|KLLA0A00176g'   0.59002167 0.6052061 0.6030369 0.6030369 0.6008677 0.61605203 0.59002167 0.5986985 0.6013072 0.14285715 0.0 0.14957266 0.45726496 0.7591743 0.74943054 0.7562642
+[12] 'Klac|KLLA0D00258g'   0.59002167 0.62689805 0.5986985 0.6052061 0.6030369 0.6008677 0.59219086 0.5986985 0.6013072 0.012820513 0.14957266 0.0 0.4946695 0.77522933 0.76537585 0.7585421
+[13] 'Klac|KLLA0E24949g'   0.6212121 0.61255413 0.6103896 0.6147186 0.6147186 0.6233766 0.6147186 0.61255413 0.6 0.491453 0.45726496 0.4946695 0.0 0.77116704 0.7477273 0.74545455
+[14] 'Spom|SPBP4G3.02'     0.7264368 0.74482757 0.71954024 0.737931 0.737931 0.7241379 0.7264368 0.73103446 0.72517323 0.77522933 0.7591743 0.77522933 0.77116704 0.0 0.4370861 0.42825606
+[15] 'Spom|SPBC21H7.03c'   0.7214612 0.7420091 0.70547944 0.7214612 0.7214612 0.7123288 0.72602737 0.7328767 0.7201835 0.76309794 0.74943054 0.76537585 0.7477273 0.4370861 0.0 0.2548596
+[16] 'Spom|SPBC428.03c'    0.716895 0.7374429 0.70776254 0.7123288 0.7123288 0.70547944 0.7191781 0.7283105 0.7201835 0.7562642 0.7562642 0.7585421 0.74545455 0.42825606 0.2548596 0.0
+;
+END; [Distances]
+
+BEGIN Sets;
+  TAXSET 'Outgroup' = 'Spom|SPBC21H7.03c' 'Spom|SPBP4G3.02' 'Spom|SPBC428.03c';
+  TAXSET 'Spom' =;
+END; [Sets]
+
+BEGIN Trees;
+[TREES]
+[1] tree 'BioNJ'=[&R] (Spom|SPBC21H7.03c:0.12961964,Spom|SPBC428.03c:0.12523997,(Spom|SPBP4G3.02:0.22209892,((((Klac|KLLA0B00286g:0.0046891836,Klac|KLLA0D00258g:0.008131329):0.06887352,Klac|KLLA0A00176g:0.07093112):0.15864155,Klac|KLLA0E24949g:0.2434141):0.08357727,(Klac|KLLA0C19338g:0.23695725,(Scer|YDL024C:0.1828124,(((Scer|YBR092C:0.039334487,Smik_2.233:0.074155875):0.026903639,(Smik_2.234:0.030907348,Smik_2.235:0.037615135):0.021276234):0.0087416675,(Scer|YBR093C:0.061314467,(Scer|YHR215W:0.003937065,Scer|YAR071W:3.4559003E-4):0.08215448):0.0043739644):0.09829355):0.064141475):0.04448453):0.222954):0.083142355);
+END; [Trees]
+
+BEGIN Splits;
+DIMENSIONS ntax=16 nsplits=29;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+PROPERTIES fit=98.15 compatible;
+CYCLE 1 2 9 10 12 11 13 14 15 16 3 6 7 8 4 5;
+MATRIX
+[1, size=1] 	 0.12961964 	  1 2 3 4 5 6 7 8 9 10 11 12 13 14 16,
+[2, size=1] 	 0.12523997 	  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15,
+[3, size=1] 	 0.22209892 	  1 2 3 4 5 6 7 8 9 10 11 12 13 15 16,
+[4, size=1] 	 0.0046891836 	  1 2 3 4 5 6 7 8 9 11 12 13 14 15 16,
+[5, size=1] 	 0.008131329 	  1 2 3 4 5 6 7 8 9 10 11 13 14 15 16,
+[6, size=2] 	 0.06887352 	  1 2 3 4 5 6 7 8 9 11 13 14 15 16,
+[7, size=1] 	 0.07093112 	  1 2 3 4 5 6 7 8 9 10 12 13 14 15 16,
+[8, size=3] 	 0.15864155 	  1 2 3 4 5 6 7 8 9 13 14 15 16,
+[9, size=1] 	 0.2434141 	  1 2 3 4 5 6 7 8 9 10 11 12 14 15 16,
+[10, size=4] 	 0.08357727 	  1 2 3 4 5 6 7 8 9 14 15 16,
+[11, size=1] 	 0.23695725 	  1 2 3 4 5 6 7 8 10 11 12 13 14 15 16,
+[12, size=1] 	 0.1828124 	  1 3 4 5 6 7 8 9 10 11 12 13 14 15 16,
+[13, size=1] 	 0.039334487 	  1 2 4 5 6 7 8 9 10 11 12 13 14 15 16,
+[14, size=1] 	 0.074155875 	  1 2 3 4 5 7 8 9 10 11 12 13 14 15 16,
+[15, size=2] 	 0.026903639 	  1 2 4 5 7 8 9 10 11 12 13 14 15 16,
+[16, size=1] 	 0.030907348 	  1 2 3 4 5 6 8 9 10 11 12 13 14 15 16,
+[17, size=1] 	 0.037615135 	  1 2 3 4 5 6 7 9 10 11 12 13 14 15 16,
+[18, size=2] 	 0.021276234 	  1 2 3 4 5 6 9 10 11 12 13 14 15 16,
+[19, size=4] 	 0.0087416675 	  1 2 4 5 9 10 11 12 13 14 15 16,
+[20, size=1] 	 0.061314467 	  1,
+[21, size=1] 	 0.003937065 	  1 2 3 5 6 7 8 9 10 11 12 13 14 15 16,
+[22, size=1] 	 3.4559003E-4 	  1 2 3 4 6 7 8 9 10 11 12 13 14 15 16,
+[23, size=2] 	 0.08215448 	  1 2 3 6 7 8 9 10 11 12 13 14 15 16,
+[24, size=3] 	 0.0043739644 	  1 4 5,
+[25, size=7] 	 0.09829355 	  1 3 4 5 6 7 8,
+[26, size=8] 	 0.064141475 	  1 2 3 4 5 6 7 8,
+[27, size=7] 	 0.04448453 	  1 2 3 4 5 6 7 8 9,
+[28, size=3] 	 0.222954 	  1 2 3 4 5 6 7 8 9 10 11 12 13,
+[29, size=2] 	 0.083142355 	  1 2 3 4 5 6 7 8 9 10 11 12 13 14,
+;
+END; [Splits]
+
+BEGIN Network;
+DIMENSIONS ntax=16 nvertices=31 nedges=30;
+DRAW to_scale;
+LAYOUT rectilinear;
+TRANSLATE
+2 'Spom|SPBC21H7.03c',
+3 'Spom|SPBC428.03c',
+4 'Spom|SPBP4G3.02',
+5 'Klac|KLLA0B00286g',
+6 'Klac|KLLA0D00258g',
+7 'Klac|KLLA0A00176g',
+8 'Klac|KLLA0E24949g',
+9 'Klac|KLLA0C19338g',
+10 'Scer|YDL024C',
+11 'Scer|YBR092C',
+12 'Smik_2.233',
+13 'Smik_2.234',
+14 'Smik_2.235',
+15 'Scer|YBR093C',
+16 'Scer|YHR215W',
+17 'Scer|YAR071W',
+;
+VERTICES
+1 0.54529697 0.7569503 w=2 h=2 s=n,
+2 0.32381147 0.16821118 w=2 h=2 s=n,
+3 0.31943178 0.25231677 w=2 h=2 s=n,
+4 0.11104946 0.08410559 w=2 h=2 s=n,
+5 0.649785 1.0933727 w=2 h=2 s=n,
+6 0.65322715 1.1774783 w=2 h=2 s=n,
+7 0.6471534 1.2615838 w=2 h=2 s=n,
+8 0.6609948 1.3456894 w=2 h=2 s=n,
+9 0.61544526 1.0092671 w=2 h=2 s=n,
+10 0.62544185 0.9251615 w=2 h=2 s=n,
+11 0.6159028 0.33642235 w=2 h=2 s=n,
+12 0.6507242 0.42052796 w=2 h=2 s=n,
+13 0.60184824 0.50463355 w=2 h=2 s=n,
+14 0.60855603 0.58873916 w=2 h=2 s=n,
+15 0.60661143 0.8410559 w=2 h=2 s=n,
+16 0.63138855 0.6728447 w=2 h=2 s=n,
+17 0.62779707 0.7569503 w=2 h=2 s=n,
+18 0.6450958 1.1354254 w=2 h=2 s=n,
+19 0.5762223 1.1774783 w=2 h=2 s=n,
+20 0.41758072 1.219531 w=2 h=2 s=n,
+21 0.5765683 0.37847516 w=2 h=2 s=n,
+22 0.5709409 0.54668635 w=2 h=2 s=n,
+23 0.5496647 0.46258074 w=2 h=2 s=n,
+24 0.6274515 0.7148975 w=2 h=2 s=n,
+25 0.540923 0.58873916 w=2 h=2 s=n,
+26 0.44262946 0.6307919 w=2 h=2 s=n,
+27 0.378488 0.6728447 w=2 h=2 s=n,
+28 0.33400345 0.8410559 w=2 h=2 s=n,
+29 0.11104946 0.7569503 w=2 h=2 s=n,
+30 0.19419181 0.21026398 w=2 h=2 s=n,
+31 0.0 0.7148975 w=2 h=2 s=n,
+;
+VLABELS
+2 'Spom|SPBC21H7.03c' l=7 f='Dialog-PLAIN-10',
+3 'Spom|SPBC428.03c' l=7,
+4 'Spom|SPBP4G3.02' l=7,
+5 'Klac|KLLA0B00286g' l=7,
+6 'Klac|KLLA0D00258g' l=7,
+7 'Klac|KLLA0A00176g' l=7,
+8 'Klac|KLLA0E24949g' l=7,
+9 'Klac|KLLA0C19338g' l=7,
+10 'Scer|YDL024C' l=7,
+11 'Scer|YBR092C' l=7,
+12 'Smik_2.233' l=7,
+13 'Smik_2.234' l=7,
+14 'Smik_2.235' l=7,
+15 'Scer|YBR093C' l=7,
+16 'Scer|YHR215W' l=7,
+17 'Scer|YAR071W' l=7,
+;
+EDGES
+1 15 1 s=20 w=0.061314467,
+2 18 5 s=4 w=0.0046891836,
+3 18 6 s=5 w=0.008131329,
+4 19 7 s=7 w=0.07093112,
+5 19 18 s=6 w=0.06887352,
+6 20 8 s=9 w=0.2434141,
+7 20 19 s=8 w=0.15864155,
+8 21 11 s=13 w=0.039334487,
+9 21 12 s=14 w=0.074155875,
+10 22 13 s=16 w=0.030907348,
+11 22 14 s=17 w=0.037615135,
+12 23 21 s=15 w=0.026903639,
+13 23 22 s=18 w=0.021276234,
+14 24 16 s=21 w=0.003937065,
+15 24 17 s=22 w=3.4559003E-4,
+16 1 24 s=23 w=0.08215448,
+17 25 23 s=19 w=0.0087416675,
+18 1 25 s=24 w=0.0043739644,
+19 26 10 s=12 w=0.1828124,
+20 25 26 s=25 w=0.09829355,
+21 27 9 s=11 w=0.23695725,
+22 26 27 s=26 w=0.064141475,
+23 28 20 s=10 w=0.08357727,
+24 27 28 s=27 w=0.04448453,
+25 28 29 s=28 w=0.222954,
+26 30 2 s=1 w=0.12961964,
+27 30 3 s=2 w=0.12523997,
+28 29 30 s=29 w=0.083142355,
+29 4 31 s=3 w=0.11104946,
+30 29 31 s=3 w=0.11104946,
+;
+INTERNAL
+1 0.54529697 0.8410559,
+2 0.6450958 1.0933727,
+3 0.6450958 1.1774783,
+4 0.5762223 1.2615838,
+5 0.5762223 1.1354254,
+6 0.41758072 1.3456894,
+7 0.41758072 1.1774783,
+8 0.5765683 0.33642235,
+9 0.5765683 0.42052796,
+10 0.5709409 0.50463355,
+11 0.5709409 0.58873916,
+12 0.5496647 0.37847516,
+13 0.5496647 0.54668635,
+14 0.6274515 0.6728447,
+15 0.6274515 0.7569503,
+16 0.54529697 0.7148975,
+17 0.540923 0.46258074,
+18 0.540923 0.7569503,
+19 0.44262946 0.9251615,
+20 0.44262946 0.58873916,
+21 0.378488 1.0092671,
+22 0.378488 0.6307919,
+23 0.33400345 1.219531,
+24 0.33400345 0.6728447,
+25 0.11104946 0.8410559,
+26 0.19419181 0.16821118,
+27 0.19419181 0.25231677,
+28 0.11104946 0.21026398,
+29 0.0 0.08410559,
+30 0.0 0.7569503,
+;
+END; [Network]
+
+BEGIN st_bootstrap;
+DIMENSIONS ntax=16 nchar=532 nsplits=0;
+	FORMAT labels=no splits=yes all=yes;
+	RUNS=1000;
+	LENGTH=532;
+MATRIX 
+;
+END; [st_Bootstrap]
+
+BEGIN st_Assumptions;
+uptodate;
+chartransform=Uncorrected_P;
+disttransform=BioNJ;
+treestransform=TreeSelector;
+splitstransform=Phylogram Angle = 60.0 Slanted = false Cladogram = false;
+SplitsPostProcess filter=dimension value=4;
+ exclude  no missing;
+autolayoutnodelabels;
+END; [st_Assumptions]
