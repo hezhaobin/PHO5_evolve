@@ -31,7 +31,7 @@ Notes
 
 1. Downloaded and installed [SplitsTree](http://ab.inf.uni-tuebingen.de/data/software/splitstree4/download/welcome.html), to do phylogenetic analysis
 
-   - Opened the [fasta](result/alignment/PHO5_probcons_aln_20170710.fa) file and did a rudimentary BioNJ tree construction, then showed in phylogram with uncorrected P distance ![SplitsTree first test, BioNJ tree](result/tree/SplitsTree_BioNJ_uncorrectedP_phylogram_20170710_01.png]
+   - Opened the [fasta](result/alignment/PHO5_probcons_aln_20170710.fa) file and did a rudimentary BioNJ tree construction, then showed in phylogram with uncorrected P distance ![SplitsTree first test, BioNJ tree](result/tree/SplitsTree_BioNJ_uncorrectedP_phylogram_20170710_01.png)
    - Can already see that for most of the paralogs within a species, the first coalescent event is between paralogs rather than speciation, indicating that duplications happened after speciation.
 
 ## 9 juillet 2017
