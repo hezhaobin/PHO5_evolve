@@ -7,6 +7,18 @@ date: 5 juillet 2017
 Notes
 =====
 
+## 11 juillet 2017
+
+### Plan 
+
+- Incorporate syntenic information and gene conversion (this is Alisa Sedghifar's suggestion) as a possible factor 
+- Can I get a second most probably tree from PhyML or MrBayes?
+- Do I need to incorporate other species?
+
+### Result
+
+Still working on including _S. paradoxus_ on odyssey
+
 ## 10 juillet 2017
 
 ### Alignment

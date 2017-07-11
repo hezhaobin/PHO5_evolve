@@ -67,3 +67,6 @@ Identified Smik_2 (ultra-scaffold 2) as significant. Within this ultra-scaffold 
     >CDS	414455	415858	Anc_4.177	-	0	ID=1690892788879540471;ygobhmm=0.15;none=;manual=-1e+100;SGD=YDL024C;Gene=Smik_2.235;Parent=Smik_2.235;kaks2=-1e+100;struct=2;ltr=0.12;hsp=0.0;hcnf=0;aa=0.0;lda=-1e+100;rna=-1e+100;synt=0;YGOB=Anc_4.177;stop=0;introns=0;BLAST=YBR092C;ncbi=1e+100;kaks=1e+100;nnnn=-1e+100;length=1404;hmm=-1e+100;Name=Smik_2.235;ty=1e+100
 
 * Finally, the sequences of these three genes are extracted by `grep "Smik\_2\.235\|Smik\_2\.234\|Smik\_2\.233" Smik.aa -A 1 > result/Smik_PHO5_ortholog.fa`
+
+## 3. Repeat the procedure for S. paradoxus and S. bayanus
+
