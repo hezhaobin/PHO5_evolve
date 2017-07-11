@@ -9,7 +9,7 @@ Notes
 
 ## 10 juillet 2017
 
-### Alignment and tree construction
+### Alignment
 
 1. Species (# of paralogs) used for alignment:
 
@@ -23,16 +23,41 @@ Notes
 
    saved the result [here](result/alignment/PHO5_probcons_aln_20170710.phy)
 
-1. Tested [PhyML](http://www.atgc-montpellier.fr/phyml/)
+### Tree construction
 
-   - Test 1: AIC for selection criterion / BioNJ as start / SPR for tree improvement / 1000 bootstrap / default everywhere else
-   - Test 2: same as above except 100 bootstrap
-   - results link available through email
+#### PhyML
 
-1. Downloaded and installed [SplitsTree](http://ab.inf.uni-tuebingen.de/data/software/splitstree4/download/welcome.html), to do phylogenetic analysis
+[PhyML](http://www.atgc-montpellier.fr/phyml/) is a program that uses Maximum Likelihood method to do (substitution) model selection, and can do tree improvement using Subtree Pruning and Regrafting (SPR). It also does bootstrapping to provide support values.
 
-   - Opened the [fasta](result/alignment/PHO5_probcons_aln_20170710.fa) file and did a rudimentary BioNJ tree construction, then showed in phylogram with uncorrected P distance ![SplitsTree first test, BioNJ tree](result/tree/SplitsTree_BioNJ_uncorrectedP_phylogram_20170710_01.png)
-   - Can already see that for most of the paralogs within a species, the first coalescent event is between paralogs rather than speciation, indicating that duplications happened after speciation.
+- Test 1: AIC for selection criterion / BioNJ as start / SPR for tree improvement / 1000 bootstrap / default everywhere else
+
+- Test 2: same as above except 100 bootstrap
+
+- results downloaded as zip files in the [result/tree](result/tree) folder
+
+- Here is a taste
+
+    ![1000 bootstrap](result/tree/PhyML_PHO5_BioNJ_phylogram_20170710_01.png)
+
+#### SplitsTree
+
+Downloaded and installed [SplitsTree](http://ab.inf.uni-tuebingen.de/data/software/splitstree4/download/welcome.html), to do phylogenetic analysis
+
+- Opened the [fasta](result/alignment/PHO5_probcons_aln_20170710.fa) file and did a rudimentary BioNJ tree construction, then showed in phylogram with uncorrected P distance ![SplitsTree first test, BioNJ tree](result/tree/SplitsTree_BioNJ_uncorrectedP_phylogram_20170710_01.png)
+
+- Can already see that for most of the paralogs within a species, the first coalescent event is between paralogs rather than speciation, indicating that duplications happened after speciation.
+
+### Sum-up
+
+Based on what I got today, I can make the following inferences:
+
+- all three _S. pombe_ phosphatases clearly amplified after the species has diverged from the rest examined here.
+-
+- Four of the five _K. lactis_ paralogs closely cluster with high bootstrap support, suggesting they originated after the species has diverged from the _sensu stricto_ group
+-
+- One _K. lactis_ gene is more similar to the _sensu stricto_ genes. One explanation is that there has been an ancient duplication event in the ancestor of _S. cerevisiae_ and _K. lactis_ -- the [PhylomeDB](https://goo.gl/ZsH8Ps) site made the same inference -- then one of the duplicated copies was lost in _S. cerevisiae_ and its close relatives but retained in _K. lactis_. 
+-
+- Similar inferences can be made about the _S. mikatae_ copies, which would involve a couple of gene loss and duplication events to best explain the tree. However, notice the less than perfect support value for those nodes, indicating that they may be too similar to draw a strong conclusion.
 
 ## 9 juillet 2017
 
