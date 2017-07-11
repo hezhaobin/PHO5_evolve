@@ -52,11 +52,11 @@ Downloaded and installed [SplitsTree](http://ab.inf.uni-tuebingen.de/data/softwa
 Based on what I got today, I can make the following inferences:
 
 - all three _S. pombe_ phosphatases clearly amplified after the species has diverged from the rest examined here.
--
+
 - Four of the five _K. lactis_ paralogs closely cluster with high bootstrap support, suggesting they originated after the species has diverged from the _sensu stricto_ group
--
+
 - One _K. lactis_ gene is more similar to the _sensu stricto_ genes. One explanation is that there has been an ancient duplication event in the ancestor of _S. cerevisiae_ and _K. lactis_ -- the [PhylomeDB](https://goo.gl/ZsH8Ps) site made the same inference -- then one of the duplicated copies was lost in _S. cerevisiae_ and its close relatives but retained in _K. lactis_. 
--
+
 - Similar inferences can be made about the _S. mikatae_ copies, which would involve a couple of gene loss and duplication events to best explain the tree. However, notice the less than perfect support value for those nodes, indicating that they may be too similar to draw a strong conclusion.
 
 ## 9 juillet 2017
