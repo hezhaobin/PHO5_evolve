@@ -7,13 +7,15 @@ date: 5 juillet 2017
 Notes
 =====
 
-## 11 juillet 2017
+## 11-12 juillet 2017
 
 ### Plan 
 
-- Incorporate syntenic information and gene conversion (this is Alisa Sedghifar's suggestion) as a possible factor 
+- Obtain _S. paradoxus_ and _S. bayanus var uvarium_ sequences using BLAST
+- Add _L. kluyveri_ and ?, compile a new sequence file, repeat alignment and tree building procedures
+- Incorporate syntenic information for the sensu stricto species
+- Consider gene conversion (this is Alisa Sedghifar's suggestion) as a possible factor 
 - Can I get a second most probably tree from PhyML or MrBayes?
-- Do I need to incorporate other species?
 
 ### Result
 
