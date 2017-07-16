@@ -19,7 +19,27 @@ Notes
 
 ### Result
 
-Still working on including _S. paradoxus_ on odyssey
+#### Alignment and tree
+
+1. Got the _S. paradoxus_ and _S. bayanus var uvarium_ sequences. See notes [here](data/BLAST/README.md)
+
+1. Added _L. kluyveri_, _L. elongosporus_, both of which have only one copy.
+
+1. Redid [alignment](result/alignment/Pho5_extended_MSAprobs_aln_20170712_01.fa) and submitted for PhyML analysis.
+
+   - result is below
+   ![new PhyML best tree 20170713](result/tree/PhyML_PHO5_probcons_bootstrap_1000_20170713_01.png)
+
+   - the tree supports four of the five Klac members to have been amplified post speciation between _K. lactis_ with either _L. kluyveri_ or the _sensu stricto_ species. there might have been an ancient duplication in the common ancestor of the three species. But the support is not great (node with support value of 514/1000)
+
+   - the sequences within the _sensu stricto_ clade are quite close and not easy to resolve (shown as relatively low bootstrap values). there is some strong support for YHR215W (_PHO12_) and YAR071W (_PHO11_) being derived from a species specific duplicaiton event. the rest are less certain
+
+#### Synteny
+
+1. ![ScPho5, ScPho3](result/synteny/ygob_YBR093C_sensu_stricto_20170713_01.png)
+
+   - ScPho5 and ScPho3 are tandem, and they are syntenic with Smik_2.233, 2.234 and Suva_4.339, 4.340 (note that YGOB uses Suva to indicate _S. bayanus var uvarium_) while Smik_2.235 appears to be newly duplicated copy specific to _S. mikatae_. There are no syntenic orthologs in _K. lactis_ or other species.
+   - All five _K. lactis_copies are on separate chromosomes, and no syntenic block in the _sensu stricto_
 
 ## 10 juillet 2017
 
