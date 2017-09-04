@@ -4,8 +4,34 @@ author: Bin He
 date: 5 juillet 2017
 ---
 
+Goal
+====
+
+- Reconstruct the phylogeny for PHO5 family homologs in a set of species in order to test the hypothesis of repeated duplication of phosphatase-encoding genes.
+
+Materials & Method
+====
+
+- species were chosen to include three that have multiple PHO5 family gene members, i.e. _S. pombe_ (3), _K. lactis_ (5) and _S. cerevisiae_ (5). 
+- Three more species in the sensu stricto clade were added to assess how recently had some of the gene duplication occurred.
+- Gene geneaologies were reconstructed using the PhyML online program. See notes below for detailed parameters used.
+
 Notes
 =====
+
+## 4 septembre 2017
+
+### Goal
+
+- Revise the PhyML analysis by reconsidering what species to include and what to exclude
+
+### Notes
+
+- Remove _L. kluyveri_ and _S. bayanus_
+- Add _L. waltii_, which is positioned between _sensu stricto_ and _K. lactis_.
+- Renamed sequence names to make the format more consistent.
+- Repeated the Probcons (1000 iterations) alignment in Jalview and ALTER conversion into Phylip format. See [here](data)
+- Submitted to [PhyML](http://www.atgc-montpellier.fr/phyml/), paramter: AIC for model selection / BioNJ for starting tree / SPR for tree improvement / aBayes for fast likelihood / 1000 bootstraps
 
 ## 11-12 juillet 2017
 
@@ -25,7 +51,7 @@ Notes
 
 1. Added _L. kluyveri_, _L. elongosporus_, both of which have only one copy.
 
-1. Redid [alignment](result/alignment/Pho5_extended_MSAprobs_aln_20170712_01.fa) and submitted for PhyML analysis.
+1. Redid [alignment](data/alignment/Pho5_extended_MSAprobs_aln_20170712_01.fa) and submitted for PhyML analysis.
 
    - result is below
    ![new PhyML best tree 20170713](result/tree/PhyML_PHO5_probcons_bootstrap_1000_20170713_01.png)
@@ -51,11 +77,11 @@ Notes
 
 1. Used JalView(2.10.1)-implemented ProbCons program, with **1000** passes of iterative refinement
 
-   saved the result as fasta [link](result/alignment/PHO5_probcons_aln_20170710.fa)
+   saved the result as fasta [link](data/alignment/PHO5_probcons_aln_20170710.fa)
 
 1. Converted FASTA to PHYLIP using ALignment Transformation EnvRonment ([ALTER](http://sing.ei.uvigo.es/ALTER/))
 
-   saved the result [here](result/alignment/PHO5_probcons_aln_20170710.phy)
+   saved the result [here](data/alignment/PHO5_probcons_aln_20170710.phy)
 
 ### Tree construction
 
@@ -77,7 +103,7 @@ Notes
 
 Downloaded and installed [SplitsTree](http://ab.inf.uni-tuebingen.de/data/software/splitstree4/download/welcome.html), to do phylogenetic analysis
 
-- Opened the [fasta](result/alignment/PHO5_probcons_aln_20170710.fa) file and did a rudimentary BioNJ tree construction, then showed in phylogram with uncorrected P distance ![SplitsTree first test, BioNJ tree](result/tree/SplitsTree_BioNJ_uncorrectedP_phylogram_20170710_01.png)
+- Opened the [fasta](data/alignment/PHO5_probcons_aln_20170710.fa) file and did a rudimentary BioNJ tree construction, then showed in phylogram with uncorrected P distance ![SplitsTree first test, BioNJ tree](result/tree/SplitsTree_BioNJ_uncorrectedP_phylogram_20170710_01.png)
 
 - Can already see that for most of the paralogs within a species, the first coalescent event is between paralogs rather than speciation, indicating that duplications happened after speciation.
 
