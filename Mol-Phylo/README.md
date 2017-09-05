@@ -25,13 +25,50 @@ Notes
 
 - Revise the PhyML analysis by reconsidering what species to include and what to exclude
 
-### Notes
+### Method
 
 - Remove _L. kluyveri_ and _S. bayanus_
+
 - Add _L. waltii_, which is positioned between _sensu stricto_ and _K. lactis_.
+
 - Renamed sequence names to make the format more consistent.
+
 - Repeated the Probcons (1000 iterations) alignment in Jalview and ALTER conversion into Phylip format. See [here](data)
+
 - Submitted to [PhyML](http://www.atgc-montpellier.fr/phyml/), paramter: AIC for model selection / BioNJ for starting tree / SPR for tree improvement / aBayes for fast likelihood / 1000 bootstraps
+
+
+### Result
+
+- I eventually settled with just the four species with multiple _PHO5_ family members, and which have been experimentally tested in this study. These are _S. cerevisiae_, _S. mikatae_, _K. lactis_ and _S. pombe_. The resulting tree is easier to interpret.
+
+- The new PhyML results were downloaded in the [results](result/tree) folder.
+ 
+- I made some simple adjustments in the GUI available from the PhyML web service site, called PRESTO (a Phylogenetic tReE viSualisaTiOn), and exported the image in SVG format for further editing.
+
+- In Inkscape, I extensively edited the tree by
+
+    1. moving the bootstrap values to the left of the internal nodes
+
+    1. added legend for the scale as "substitution per site"
+
+    1. colored some of the internal nodes red as "inferred duplication event", requiring bootstrap support to be > 950/1000
+
+    1. added an inset showing the species tree
+
+    1. added gene common names for _S. cerevisiae_ and 2/3 _S. pombe_ genes
+
+    1. color coded the 4 genes whose induction has been attributed experimentally to either thiamine or phosphate starvation (Figure 4).
+
+    1. added a legend at the bottom to explain the colors.
+
+- In Google Draw, I assembed the entire Figure 3
+
+    1. start from a 8.5 x 11 letter size
+
+    1. made two cartoon figures to illustrate the two scenarios, i.e. duplication first or speciation first.
+
+    1. downloaded the figure as pdf / png.
 
 ## 11-12 juillet 2017
 

@@ -4,7 +4,6 @@ author: Bin He
 date: 5 juillet 2017
 ---
 
-[Link](notes.md) to analysis notes.
 
 Background
 ==========
