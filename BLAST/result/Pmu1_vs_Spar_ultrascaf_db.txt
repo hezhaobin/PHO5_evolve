@@ -1,0 +1,108 @@
+TBLASTN 2.2.29+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Spar.ultrascaf
+           16 sequences; 11,744,610 total letters
+
+
+
+Query= Scer|YKL128C PMU1
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|Spar_11  685568bp [GAP=13; TRNA=15; CODING=324]                     540   6e-175
+lcl|Spar_4  1502829bp [GAP=42; TRNA=29; CODING=772]                   32.7    0.12  
+lcl|Spar_14  768319bp [GAP=15; TRNA=14; CODING=392]                   28.1    3.3   
+
+
+>lcl|Spar_11 685568bp [GAP=13; TRNA=15; CODING=324]
+Length=685568
+
+ Score =   540 bits (1392),  Expect = 6e-175, Method: Compositional matrix adjust.
+ Identities = 265/295 (90%), Positives = 282/295 (96%), Gaps = 0/295 (0%)
+ Frame = -1
+
+Query  1       MSLRAVPGYFAAYPSEGFQGLDSTKYDHLELINHKNWKELYHAIPRNTKNRHYKLLILAR  60
+               M LRAVPGYFAAYP+EGFQGLDSTKYDHL+LINHK+W+ELY+A+PRNTK  HYKLLILAR
+Sbjct  212321  MLLRAVPGYFAAYPNEGFQGLDSTKYDHLQLINHKDWEELYYAMPRNTKTHHYKLLILAR  212142
+
+Query  61      HGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPMAKQ  120
+               HGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLP+ KQ
+Sbjct  212141  HGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPVTKQ  211962
+
+Query  121     LGMLPHVFFSSPMRRCLETFIESWTPVLAETQELPAGTKISTRIIEGLRETLGSHTCDKR  180
+               LGMLPHVFFSSPMRRCLETFIESWTPVLAE Q++P GTKISTRIIEGLRETLGSHTCDKR
+Sbjct  211961  LGMLPHVFFSSPMRRCLETFIESWTPVLAEMQKVPTGTKISTRIIEGLRETLGSHTCDKR  211782
+
+Query  181     VAHSMAVDEYQDFSTESGHTVHWQYVPDYPEDDELWLPDHRETCAEMDKRTLNGLFELFN  240
+               V HS+ VDEYQDF TESGHTVHWQYVPDYPE+D+LWL DHRETCAE+DKRT +GL ELFN
+Sbjct  211781  VPHSITVDEYQDFRTESGHTVHWQYVPDYPEEDDLWLVDHRETCAELDKRTQDGLSELFN  211602
+
+Query  241     QLSSEEKFISLTCHSGVIQSVLRNLQHPPIYNLDTGKvvavvvevpvNTADRGRL  295
+               QLSSEEKF+SLTCHSGVIQSVLRNLQHPP+YNLDTGKVVAVVVEVPVNTA +GRL
+Sbjct  211601  QLSSEEKFVSLTCHSGVIQSVLRNLQHPPVYNLDTGKVVAVVVEVPVNTAGQGRL  211437
+
+
+>lcl|Spar_4 1502829bp [GAP=42; TRNA=29; CODING=772]
+Length=1502829
+
+ Score = 32.7 bits (73),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 35/125 (28%), Positives = 50/125 (40%), Gaps = 23/125 (18%)
+ Frame = +1
+
+Query  19      QGLDSTKYDHLELINHKNWK-ELYHAIPRNTKNRHYKL--LILARHGQGYHNAAILRYGM  75
+               QG +S +   L   N KN   E+Y    R T NR   +  L L RHGQ   N   +  G 
+Sbjct  422422  QGTNSNR--QLINFNSKNKTIEIY*PTGRMTANRSSNVMTLFLLRHGQSELNHENIFCG-  422592
+
+Query  76      EKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPMAKQLGMLPHVFFSSPMRR  135
+                                W+D+KLT  GK+Q R +   +          LP + ++S + R
+Sbjct  422593  -----------------WIDAKLTDKGKEQARHSAELIKQYCKANNLKLPQIGYTSRLIR  422721
+
+Query  136     CLETF  140
+                 +T 
+Sbjct  422722  TQQTI  422736
+
+
+>lcl|Spar_14 768319bp [GAP=15; TRNA=14; CODING=392]
+Length=768319
+
+ Score = 28.1 bits (61),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+ Frame = -3
+
+Query  120     QLGMLPHVFFSSPMRRCLET  139
+               +L + P + FSSP  RCLET
+Sbjct  404237  KLDVKPELIFSSPFYRCLET  404178
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 790503164
+
+
+  Database: Spar.ultrascaf
+    Posted date:  Jul 11, 2017  4:19 PM
+  Number of letters in database: 11,744,610
+  Number of sequences in database:  16
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

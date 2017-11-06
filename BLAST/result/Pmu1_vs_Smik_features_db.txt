@@ -1,0 +1,199 @@
+TBLASTN 2.2.29+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Smik.fsa
+           6,892 sequences; 8,535,011 total letters
+
+
+
+Query= Scer|YKL128C PMU1
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|Smik_11.107  [REAL/YGOBHMM; YGOB:Anc_2.442; HMM:1.2e-151; SCE...    505   0.0  
+lcl|Smik_15.103  [REAL/YGOBHMM; YGOB:Anc_3.172; HMM:7.3e-170; SCE...  31.2    0.19 
+lcl|Smik_14.218  [REAL/YGOBHMM; YGOB:Anc_2.169; HMM:4e-139; SCER:...  29.6    0.55 
+lcl|Smik_4.214  [REAL/YGOBHMM; YGOB:Anc_3.172; HMM:2.9e-166; SCER...  28.9    1.0  
+lcl|Smik_16.358  [REAL/YGOBHMM; YGOB:Anc_3.438; HMM:8.2e-262; SCE...  28.9    1.3  
+lcl|Smik_12.72  [REAL/YGOBHMM; YGOB:Anc_5.234; HMM:7.6e-24; SCER:...  26.2    4.4  
+lcl|Smik_11.306  [REAL/YGOBHMM; YGOB:Anc_1.240; HMM:6.7e-163; SCE...  26.6    4.4  
+lcl|Smik_5.57  [REAL/YGOBHMM; YGOB:Anc_1.479; HMM:7.8e-270; SCER:...  26.2    7.6  
+lcl|Smik_15.246  [REAL/YGOBHMM; YGOB:Anc_5.668; HMM:1.1e-101; SCE...  26.2    8.5  
+
+
+>lcl|Smik_11.107 [REAL/YGOBHMM; YGOB:Anc_2.442; HMM:1.2e-151; SCER:YKL128C; SYNT:YMR109W/0/YDR366C; 
+LEN:951; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=951
+
+ Score =   505 bits (1300),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 246/295 (83%), Positives = 273/295 (93%), Gaps = 0/295 (0%)
+ Frame = +1
+
+Query  1    MSLRAVPGYFAAYPSEGFQGLDSTKYDHLELINHKNWKELYHAIPRNTKNRHYKLLILAR  60
+            MSLRAVPGYF+AYP+E FQGLDSTK DHL+LINHKNWKELY AIP++T++ HYKLLILAR
+Sbjct  64   MSLRAVPGYFSAYPNEAFQGLDSTKNDHLQLINHKNWKELYDAIPKDTRSCHYKLLILAR  243
+
+Query  61   HGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPMAKQ  120
+            HGQGYHNAAILRYGME+WDAYWSLLSGDEHGEWLDS+LTPLGKDQVRRTGSNVLLPM KQ
+Sbjct  244  HGQGYHNAAILRYGMEEWDAYWSLLSGDEHGEWLDSRLTPLGKDQVRRTGSNVLLPMIKQ  423
+
+Query  121  LGMLPHVFFSSPMRRCLETFIESWTPVLAETQELPAGTKISTRIIEGLRETLGSHTCDKR  180
+            LGMLPHVFFSSPMRRCLETFIESWTPVLAE  +   G+++STRIIE LRETLGSHTCDKR
+Sbjct  424  LGMLPHVFFSSPMRRCLETFIESWTPVLAEVPKESFGSEVSTRIIESLRETLGSHTCDKR  603
+
+Query  181  VAHSMAVDEYQDFSTESGHTVHWQYVPDYPEDDELWLPDHRETCAEMDKRTLNGLFELFN  240
+            V+HSM V+EYQ+F T+SGHTV WQY+PDYPE+DELWL DHRETCAE+DKRT +GL +LF+
+Sbjct  604  VSHSMTVNEYQNFRTKSGHTVRWQYMPDYPEEDELWLVDHRETCAELDKRTQDGLSDLFS  783
+
+Query  241  QLSSEEKFISLTCHSGVIQSVLRNLQHPPIYNLDTGKvvavvvevpvNTADRGRL  295
+            QLS EEKFISLTCHSGVIQSVLRNLQHPP+YNL+TGKVV V+VEVPVNT  + RL
+Sbjct  784  QLSREEKFISLTCHSGVIQSVLRNLQHPPVYNLETGKVVGVIVEVPVNTISQDRL  948
+
+
+>lcl|Smik_15.103 [REAL/YGOBHMM; YGOB:Anc_3.172; HMM:7.3e-170; SCER:YOL056W; SYNT:YOL057W/3/YPR121W; 
+LEN:912; LDA:-1e+100; Ka/Ks:1e+100; OHNO:Smik_4.214]
+Length=912
+
+ Score = 31.2 bits (69),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 24/88 (27%), Positives = 36/88 (41%), Gaps = 19/88 (22%)
+ Frame = +1
+
+Query  53   YKLLILARHGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSN  112
+            +KL IL RHGQ   N+  +  G                  W+D+KLT  GK Q R +   
+Sbjct  19   FKLFIL-RHGQSELNSENIFCG------------------WIDAKLTEKGKSQARHSAKL  141
+
+Query  113  VLLPMAKQLGMLPHVFFSSPMRRCLETF  140
+            +          LP + ++S + R  +T 
+Sbjct  142  IRQFCNSNNISLPQIGYTSRLVRTQQTM  225
+
+
+>lcl|Smik_14.218 [REAL/YGOBHMM; YGOB:Anc_2.169; HMM:4e-139; SCER:YNL108C; SYNT:YNL110C/4/YNL107W; 
+LEN:813; LDA:-1e+100; Ka/Ks:1e+100; OHNO:Smik_15.288]
+Length=813
+
+ Score = 29.6 bits (65),  Expect = 0.55, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 21/45 (47%), Gaps = 5/45 (11%)
+ Frame = +1
+
+Query  95   DSKLTPLGKDQVRRTGSNVLLPMAKQLGMLPHVFFSSPMRRCLET  139
+            D  L+  G DQ     + +      +L   P + FSSP  RCLET
+Sbjct  97   DVPLSEHGVDQAHELANYI-----SKLNAKPEIIFSSPFYRCLET  216
+
+
+>lcl|Smik_4.214 [REAL/YGOBHMM; YGOB:Anc_3.172; HMM:2.9e-166; SCER:YDL021W; SYNT:YDL022W/2/YDL020C; 
+LEN:936; LDA:-1e+100; Ka/Ks:1e+100; OHNO:Smik_15.103]
+Length=936
+
+ Score = 28.9 bits (63),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 22/85 (26%), Positives = 33/85 (39%), Gaps = 18/85 (21%)
+ Frame = +1
+
+Query  56   LILARHGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLL  115
+            L L RHGQ   N   +  G                  W+D+KLT  GK+Q R +   +  
+Sbjct  34   LFLLRHGQSELNHENIFCG------------------WIDAKLTEKGKEQARHSAQLIKQ  159
+
+Query  116  PMAKQLGMLPHVFFSSPMRRCLETF  140
+                    LP + ++S + R  +T 
+Sbjct  160  YCKTNHLQLPQIGYTSRLIRTQQTI  234
+
+
+>lcl|Smik_16.358 [REAL/YGOBHMM; YGOB:Anc_3.438; HMM:8.2e-262; SCER:YPR115W; SYNT:YPR114W/4/YPR116W; 
+LEN:3096; LDA:-1e+100; Ka/Ks:1e+100; OHNO:Smik_6.183]
+Length=3096
+
+ Score = 28.9 bits (63),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 12/37 (32%), Positives = 24/37 (65%), Gaps = 0/37 (0%)
+ Frame = -1
+
+Query  104  DQVRRTGSNVLLPMAKQLGMLPHVFFSSPMRRCLETF  140
+            D+ RR+ +++LL   +++G+LP +FF   +   L+ F
+Sbjct  468  DKFRRSFASILLIQIRRIGLLPTLFFGFNLPFALQHF  358
+
+
+>lcl|Smik_12.72 [REAL/YGOBHMM; YGOB:Anc_5.234; HMM:7.6e-24; SCER:YLR010C; SYNT:YLR009W/3/; 
+LEN:483; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=483
+
+ Score = 26.2 bits (56),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 13/41 (32%), Positives = 23/41 (56%), Gaps = 1/41 (2%)
+ Frame = -1
+
+Query  6    VPGYFAAYPSEGFQGLDSTKYD-HLELINHKNWKELYHAIP  45
+            V  + + + S+ F  + +  +   LE+ N KNW+ L H+IP
+Sbjct  468  VQKFLSNW*SDKFTEVANVIFG*DLEINNFKNWQTLVHSIP  346
+
+
+>lcl|Smik_11.306 [REAL/YGOBHMM; YGOB:Anc_1.240; HMM:6.7e-163; SCER:YKR043C; SYNT:YKR042W/3/YKR044W; 
+LEN:816; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=816
+
+ Score = 26.6 bits (57),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 30/103 (29%), Positives = 44/103 (43%), Gaps = 15/103 (15%)
+ Frame = +1
+
+Query  70   ILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPMAKQLGMLPHV--  127
+            I+R+G  +W       SG   G   D  LTP G+ Q+ RTG ++      Q     ++  
+Sbjct  28   IVRHGQTEWSK-----SGQYTG-LTDLPLTPYGEGQMLRTGESIF--RNNQFLNPDNITY  183
+
+Query  128  FFSSPMRRCLETFIESWTPVLAETQELPAGTKISTRIIEGLRE  170
+             F+SP  R  +T      P+  E +      KI   + E LRE
+Sbjct  184  IFTSPRLRARQTVDLVLKPLSDEQR-----AKIRVVVDEDLRE  297
+
+
+>lcl|Smik_5.57 [REAL/YGOBHMM; YGOB:Anc_1.479; HMM:7.8e-270; SCER:YEL036C; SYNT:YEL037C/3/YEL035C; 
+LEN:1476; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=1476
+
+ Score = 26.2 bits (56),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 22/46 (48%), Gaps = 1/46 (2%)
+ Frame = +2
+
+Query  58   LARHGQGYHNAAILRYGME-KWDAYWSLLSGDEHGEWLDSKLTPLG  102
+            L R G G  N  I  +G   K  + W +LS      W D++ TPLG
+Sbjct  698  LCRIGSGTFNRTI*IHGRSPKEVSNWQMLSKKTLSLWKDTQNTPLG  835
+
+
+>lcl|Smik_15.246 [REAL/YGOBHMM; YGOB:Anc_5.668; HMM:1.1e-101; SCER:YOR066W; SYNT:YOR065W/4/YOR067C; 
+LEN:1896; LDA:-1e+100; Ka/Ks:1e+100; OHNO:Smik_11.340]
+Length=1896
+
+ Score = 26.2 bits (56),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 9/14 (64%), Positives = 12/14 (86%), Gaps = 0/14 (0%)
+ Frame = -1
+
+Query  132   PMRRCLETFIESWT  145
+             P RRC+ETF+ SW+
+Sbjct  1239  P*RRCIETFLTSWS  1198
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 459712690
+
+
+  Database: Smik.fsa
+    Posted date:  Jul 7, 2017  4:31 PM
+  Number of letters in database: 8,535,011
+  Number of sequences in database:  6,892
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

@@ -1,0 +1,202 @@
+TBLASTN 2.2.29+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Sbay.fsa
+           6,416 sequences; 9,651,526 total letters
+
+
+
+Query= Scer|YKL128C PMU1
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|Sbay_11.96  [REAL/YGOBHMM; YGOB:Anc_2.442; HMM:1.5e-155; SCER...    479   1e-171
+lcl|Sbay_11.278  [REAL/YGOBHMM; YGOB:Anc_1.240; HMM:7.1e-163; SCE...  29.6    0.58  
+lcl|Sbay_15.109  [REAL/YGOBHMM; YGOB:Anc_3.172; HMM:9.9e-170; SCE...  28.9    1.0   
+lcl|Sbay_4.227  [REAL/YGOBHMM; YGOB:Anc_3.172; HMM:2.7e-167; SCER...  28.1    2.2   
+lcl|Sbay_12.148  [REAL/YGOBHMM; YGOB:Anc_1.507; HMM:2e-262; SCER:...  27.3    4.5   
+lcl|Sbay_3.37  [REAL/YGOBHMM; YGOB:Anc_1.427; HMM:0; SCER:YCR011C...  26.9    5.5   
+lcl|Sbay_3.66  [REAL/YGOBHMM; YGOB:Anc_1.144; HMM:5e-12; SCER:YCR...  26.9    5.7   
+lcl|Sbay_3.20  [FEATURE/MANUAL; YGOB:; HMM:1e+100; SCER:; SYNT:YN...  26.9    5.9   
+
+
+>lcl|Sbay_11.96 [REAL/YGOBHMM; YGOB:Anc_2.442; HMM:1.5e-155; SCER:YKL128C; SYNT:YMR109W/0/; 
+LEN:894; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=894
+
+ Score =   479 bits (1234),  Expect = 1e-171, Method: Compositional matrix adjust.
+ Identities = 233/291 (80%), Positives = 259/291 (89%), Gaps = 0/291 (0%)
+ Frame = +1
+
+Query  1    MSLRAVPGYFAAYPSEGFQGLDSTKYDHLELINHKNWKELYHAIPRNTKNRHYKLLILAR  60
+            M  +AVPGYFAAYP+ GFQGLDSTK DHL+LINH +WKELYHAIP++T+N HYKLLILAR
+Sbjct  1    MQFKAVPGYFAAYPNAGFQGLDSTKNDHLQLINHNDWKELYHAIPKDTRNCHYKLLILAR  180
+
+Query  61   HGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPMAKQ  120
+            HGQGYHNAAI RYGME+WDAYWSLLSGDEHGEW DS+LTPLGK+QVR TG+NVLLPM KQ
+Sbjct  181  HGQGYHNAAISRYGMEEWDAYWSLLSGDEHGEWFDSRLTPLGKEQVRGTGTNVLLPMIKQ  360
+
+Query  121  LGMLPHVFFSSPMRRCLETFIESWTPVLAETQELPAGTKISTRIIEGLRETLGSHTCDKR  180
+            LGMLPHVFFSSPMRRCLETFIESWTPVL E Q+ P+G  ISTRIIE LRETLGSHTCDKR
+Sbjct  361  LGMLPHVFFSSPMRRCLETFIESWTPVLTEIQKPPSGNVISTRIIESLRETLGSHTCDKR  540
+
+Query  181  VAHSMAVDEYQDFSTESGHTVHWQYVPDYPEDDELWLPDHRETCAEMDKRTLNGLFELFN  240
+            V HS+ V EYQDF T+SGHTVHW YV DY E+DELWL DHRET  E+D RT +GL +LF+
+Sbjct  541  VNHSVTVGEYQDFPTDSGHTVHWHYVTDYSEEDELWLVDHRETNPELDMRTQDGLSQLFS  720
+
+Query  241  QLSSEEKFISLTCHSGVIQSVLRNLQHPPIYNLDTGKvvavvvevpvNTAD  291
+            QLSSEE+F+SLTCHSGVIQSVLRNL+HPPIYNL+TGKVV +VVEVP+N  D
+Sbjct  721  QLSSEERFVSLTCHSGVIQSVLRNLKHPPIYNLETGKVVGIVVEVPINVED  873
+
+
+>lcl|Sbay_11.278 [REAL/YGOBHMM; YGOB:Anc_1.240; HMM:7.1e-163; SCER:YKR043C; SYNT:YKR042W/4/YKR044W; 
+LEN:822; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=822
+
+ Score = 29.6 bits (65),  Expect = 0.58, Method: Compositional matrix adjust.
+ Identities = 32/103 (31%), Positives = 44/103 (43%), Gaps = 15/103 (15%)
+ Frame = +1
+
+Query  70   ILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPMAKQLGMLPHV--  127
+            I+R+G  +W       SG   G   D  LTP G+ Q+ RTG +V      Q     H+  
+Sbjct  28   IVRHGQTEWSK-----SGQYTG-LTDLPLTPYGEGQMLRTGESVF--RNNQFLNPDHITY  183
+
+Query  128  FFSSPMRRCLETFIESWTPVLAETQELPAGTKISTRIIEGLRE  170
+             F+SP  R  +T      P+  E +      KI   + E LRE
+Sbjct  184  IFTSPRLRARQTVDLVLKPLSDEQR-----AKIRVVVDEDLRE  297
+
+
+>lcl|Sbay_15.109 [REAL/YGOBHMM; YGOB:Anc_3.172; HMM:9.9e-170; SCER:YOL056W; SYNT:YOL057W/3/YPR121W; 
+LEN:924; LDA:-1e+100; Ka/Ks:1e+100; OHNO:Sbay_4.227]
+Length=924
+
+ Score = 28.9 bits (63),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 24/88 (27%), Positives = 36/88 (41%), Gaps = 19/88 (22%)
+ Frame = +1
+
+Query  53   YKLLILARHGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSN  112
+            +KL IL RHGQ   N+  +  G                  W+D+KLT  GK Q R +   
+Sbjct  19   FKLFIL-RHGQSELNSENIFCG------------------WIDAKLTEKGKSQARHSAKL  141
+
+Query  113  VLLPMAKQLGMLPHVFFSSPMRRCLETF  140
+            +          LP + ++S + R  +T 
+Sbjct  142  IKQYSDTNNIPLPQIGYTSRLVRTEQTM  225
+
+
+>lcl|Sbay_4.227 [REAL/YGOBHMM; YGOB:Anc_3.172; HMM:2.7e-167; SCER:YDL021W; SYNT:YDL022W/2/YDL020C; 
+LEN:936; LDA:-1e+100; Ka/Ks:1e+100; OHNO:Sbay_15.109]
+Length=936
+
+ Score = 28.1 bits (61),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 22/85 (26%), Positives = 33/85 (39%), Gaps = 18/85 (21%)
+ Frame = +1
+
+Query  56   LILARHGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLL  115
+            L L RHGQ   N   +  G                  W+D+KLT  GK+Q R +   +  
+Sbjct  34   LFLLRHGQSELNHENIFCG------------------WIDAKLTEKGKEQARHSAELIKQ  159
+
+Query  116  PMAKQLGMLPHVFFSSPMRRCLETF  140
+                    LP + ++S + R  +T 
+Sbjct  160  YCETNHLDLPQIGYTSRLIRTQQTI  234
+
+
+>lcl|Sbay_12.148 [REAL/YGOBHMM; YGOB:Anc_1.507; HMM:2e-262; SCER:YJR059W; SYNT:YJR058C/3/YJR060W; 
+LEN:2412; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=2412
+
+ Score = 27.3 bits (59),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 20/36 (56%), Gaps = 3/36 (8%)
+ Frame = +2
+
+Query  101  LGKDQVRRTGSNVLLPMAKQLGMLPHVFFSSPMRRC  136
+            LG D +   G   +LP+  ++G+ PH+   SP  RC
+Sbjct  227  LGIDLLLCIGRRTMLPLGSRVGLCPHI---SPPSRC  325
+
+
+>lcl|Sbay_3.37 [REAL/YGOBHMM; YGOB:Anc_1.427; HMM:0; SCER:YCR011C; SYNT:YGL038C/3/YCR012W; 
+LEN:3162; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=3162
+
+ Score = 26.9 bits (58),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 20/70 (29%), Positives = 27/70 (39%), Gaps = 16/70 (23%)
+ Frame = +1
+
+Query  156  AGTKISTRIIEGLRETL---GSHTCD-------------KRVAHSMAVDEYQDFSTESGH  199
+             G K S  I E L ET+   G  +CD               +  ++  D Y     ESG 
+Sbjct  721  CGAKGSIDISEFLTETIRGPGDFSCDLETRQCKFSEPSMNDLILTIFGDPYITLKCESGE  900
+
+Query  200  TVHWQYVPDY  209
+             VH+  +P Y
+Sbjct  901  CVHYSEIPGY  930
+
+
+>lcl|Sbay_3.66 [REAL/YGOBHMM; YGOB:Anc_1.144; HMM:5e-12; SCER:YCR032W; SYNT:YCR032W/3/YCR033W; 
+LEN:3045; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=3045
+
+ Score = 26.9 bits (58),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 23/39 (59%), Gaps = 1/39 (3%)
+ Frame = +1
+
+Query  236   FELFNQLSSEEKFISLTCHSGVIQSVLRNLQHPPIYNLD  274
+             FEL  Q+S+  K I+++ HSG I  VL       ++NL+
+Sbjct  2569  FELVRQISAGAKRIAISQHSGSIM-VLNENNAISVFNLN  2682
+
+
+>lcl|Sbay_3.20 [FEATURE/MANUAL; YGOB:; HMM:1e+100; SCER:; SYNT:YNL001W/0/YCR002C; 
+LEN:-116; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=270110
+
+ Score = 26.9 bits (58),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 20/70 (29%), Positives = 27/70 (39%), Gaps = 16/70 (23%)
+ Frame = +2
+
+Query  156     AGTKISTRIIEGLRETL---GSHTCD-------------KRVAHSMAVDEYQDFSTESGH  199
+                G K S  I E L ET+   G  +CD               +  ++  D Y     ESG 
+Sbjct  245066  CGAKGSIDISEFLTETIRGPGDFSCDLETRQCKFSEPSMNDLILTIFGDPYITLKCESGE  245245
+
+Query  200     TVHWQYVPDY  209
+                VH+  +P Y
+Sbjct  245246  CVHYSEIPGY  245275
+
+
+ Score = 26.9 bits (58),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 23/39 (59%), Gaps = 1/39 (3%)
+ Frame = -3
+
+Query  236     FELFNQLSSEEKFISLTCHSGVIQSVLRNLQHPPIYNLD  274
+               FEL  Q+S+  K I+++ HSG I  VL       ++NL+
+Sbjct  196047  FELVRQISAGAKRIAISQHSGSIM-VLNENNAISVFNLN  195934
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 541145675
+
+
+  Database: Sbay.fsa
+    Posted date:  Jul 11, 2017  4:20 PM
+  Number of letters in database: 9,651,526
+  Number of sequences in database:  6,416
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

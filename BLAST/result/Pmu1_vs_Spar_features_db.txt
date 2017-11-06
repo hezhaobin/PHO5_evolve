@@ -1,0 +1,210 @@
+TBLASTN 2.2.29+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Spar.fsa
+           7,068 sequences; 8,547,339 total letters
+
+
+
+Query= Scer|YKL128C PMU1
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|Spar_11.127  [REAL/YGOBHMM; YGOB:Anc_2.442; HMM:3.1e-153; SCE...    540   0.0  
+lcl|Spar_4.258  [REAL/YGOBHMM; YGOB:Anc_3.172; HMM:3.9e-167; SCER...  28.9    0.97 
+lcl|Spar_14.229  [REAL/YGOBHMM; YGOB:Anc_2.169; HMM:6e-140; SCER:...  28.1    1.6  
+lcl|Spar_8.234  [REAL/YGOBHMM; YGOB:Anc_2.95; HMM:2.6e-67; SCER:Y...  26.6    2.7  
+lcl|Spar_14.177  [REAL/YGOBHMM; YGOB:Anc_2.95; HMM:2e-68; SCER:YH...  26.2    3.0  
+lcl|Spar_11.298  [REAL/YGOBHMM; YGOB:Anc_1.385; HMM:4.4e-24; SCER...  26.2    7.3  
+lcl|Spar_15.152  [REAL/YGOBHMM; YGOB:Anc_7.98; HMM:5.4e-150; SCER...  26.2    7.3  
+lcl|Spar_11.334  [REAL/YGOBHMM; YGOB:Anc_1.240; HMM:2e-162; SCER:...  25.8    8.1  
+lcl|Spar_16.458  [REAL/YGOBHMM; YGOB:Anc_3.419; HMM:0; SCER:YPR10...  26.2    8.4  
+lcl|Spar_15.266  [REAL/YGOBHMM; YGOB:Anc_5.668; HMM:8.7e-103; SCE...  26.2    8.6  
+
+
+>lcl|Spar_11.127 [REAL/YGOBHMM; YGOB:Anc_2.442; HMM:3.1e-153; SCER:YKL128C; SYNT:YMR109W/0/YCR018C-A; 
+LEN:888; LDA:-1e+100; Ka/Ks:1e+100; 
+OHNO:]
+Length=888
+
+ Score =   540 bits (1391),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 265/295 (90%), Positives = 282/295 (96%), Gaps = 0/295 (0%)
+ Frame = +1
+
+Query  1    MSLRAVPGYFAAYPSEGFQGLDSTKYDHLELINHKNWKELYHAIPRNTKNRHYKLLILAR  60
+            M LRAVPGYFAAYP+EGFQGLDSTKYDHL+LINHK+W+ELY+A+PRNTK  HYKLLILAR
+Sbjct  1    MLLRAVPGYFAAYPNEGFQGLDSTKYDHLQLINHKDWEELYYAMPRNTKTHHYKLLILAR  180
+
+Query  61   HGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPMAKQ  120
+            HGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLP+ KQ
+Sbjct  181  HGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPVTKQ  360
+
+Query  121  LGMLPHVFFSSPMRRCLETFIESWTPVLAETQELPAGTKISTRIIEGLRETLGSHTCDKR  180
+            LGMLPHVFFSSPMRRCLETFIESWTPVLAE Q++P GTKISTRIIEGLRETLGSHTCDKR
+Sbjct  361  LGMLPHVFFSSPMRRCLETFIESWTPVLAEMQKVPTGTKISTRIIEGLRETLGSHTCDKR  540
+
+Query  181  VAHSMAVDEYQDFSTESGHTVHWQYVPDYPEDDELWLPDHRETCAEMDKRTLNGLFELFN  240
+            V HS+ VDEYQDF TESGHTVHWQYVPDYPE+D+LWL DHRETCAE+DKRT +GL ELFN
+Sbjct  541  VPHSITVDEYQDFRTESGHTVHWQYVPDYPEEDDLWLVDHRETCAELDKRTQDGLSELFN  720
+
+Query  241  QLSSEEKFISLTCHSGVIQSVLRNLQHPPIYNLDTGKvvavvvevpvNTADRGRL  295
+            QLSSEEKF+SLTCHSGVIQSVLRNLQHPP+YNLDTGKVVAVVVEVPVNTA +GRL
+Sbjct  721  QLSSEEKFVSLTCHSGVIQSVLRNLQHPPVYNLDTGKVVAVVVEVPVNTAGQGRL  885
+
+
+>lcl|Spar_4.258 [REAL/YGOBHMM; YGOB:Anc_3.172; HMM:3.9e-167; SCER:YDL021W; SYNT:YDL022W/3/YDL020C; 
+LEN:936; LDA:-1e+100; Ka/Ks:1e+100; OHNO:Spar_15.121]
+Length=936
+
+ Score = 28.9 bits (63),  Expect = 0.97, Method: Compositional matrix adjust.
+ Identities = 25/95 (26%), Positives = 37/95 (39%), Gaps = 20/95 (21%)
+ Frame = +1
+
+Query  48   TKNRHYKL--LILARHGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQ  105
+            T NR   +  L L RHGQ   N   +  G                  W+D+KLT  GK+Q
+Sbjct  4    TANRSSNVMTLFLLRHGQSELNHENIFCG------------------WIDAKLTDKGKEQ  129
+
+Query  106  VRRTGSNVLLPMAKQLGMLPHVFFSSPMRRCLETF  140
+             R +   +          LP + ++S + R  +T 
+Sbjct  130  ARHSAELIKQYCKANNLKLPQIGYTSRLIRTQQTI  234
+
+
+>lcl|Spar_14.229 [REAL/YGOBHMM; YGOB:Anc_2.169; HMM:6e-140; SCER:YNL108C; SYNT:YNL110C/3/YNL107W; 
+LEN:813; LDA:-1e+100; Ka/Ks:1e+100; OHNO:Spar_15.315]
+Length=813
+
+ Score = 28.1 bits (61),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+ Frame = +1
+
+Query  120  QLGMLPHVFFSSPMRRCLET  139
+            +L + P + FSSP  RCLET
+Sbjct  157  KLDVKPELIFSSPFYRCLET  216
+
+
+>lcl|Spar_8.234 [REAL/YGOBHMM; YGOB:Anc_2.95; HMM:2.6e-67; SCER:YHR141C; SYNT:YHR140W/4/YHR142W; 
+LEN:315; LDA:-1e+100; Ka/Ks:1e+100; OHNO:Spar_14.177]
+Length=315
+
+ Score = 26.6 bits (57),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 14/29 (48%), Gaps = 0/29 (0%)
+ Frame = -2
+
+Query  125  PHVFFSSPMRRCLETFIESWTPVLAETQE  153
+            P  FFS P  +CL  F  +W  VL  T  
+Sbjct  299  PFCFFSPPNSKCLHLFKVNWALVLHLTHS  213
+
+
+>lcl|Spar_14.177 [REAL/YGOBHMM; YGOB:Anc_2.95; HMM:2e-68; SCER:YHR141C; SYNT:YNL162W-A/4/YNL161W; 
+LEN:321; LDA:-1e+100; Ka/Ks:1e+100; OHNO:Spar_8.234]
+Length=321
+
+ Score = 26.2 bits (56),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 14/29 (48%), Gaps = 0/29 (0%)
+ Frame = -2
+
+Query  125  PHVFFSSPMRRCLETFIESWTPVLAETQE  153
+            P  FFS P  +CL  F  +W  VL  T  
+Sbjct  302  PFCFFSPPNSKCLHLFKVNWALVLHLTHS  216
+
+
+>lcl|Spar_11.298 [REAL/YGOBHMM; YGOB:Anc_1.385; HMM:4.4e-24; SCER:YKR015C; SYNT:YKR014C/4/YKR016W; 
+LEN:1698; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=1698
+
+ Score = 26.2 bits (56),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 25/53 (47%), Gaps = 0/53 (0%)
+ Frame = +1
+
+Query  156   AGTKISTRIIEGLRETLGSHTCDKRVAHSMAVDEYQDFSTESGHTVHWQYVPD  208
+             A TKI++   E   ++  S  C K  AH +  + +++    S H   +Q V D
+Sbjct  1357  ARTKIASSASENNNDSKSSKNCHKEEAHGLVREYFKNKLNLSPHRDRYQEVKD  1515
+
+
+>lcl|Spar_15.152 [REAL/YGOBHMM; YGOB:Anc_7.98; HMM:5.4e-150; SCER:YOL031C; SYNT:YOL032W/4/YOL030W; 
+LEN:1266; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=1266
+
+ Score = 26.2 bits (56),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 18/40 (45%), Gaps = 4/40 (10%)
+ Frame = +1
+
+Query  135  RCLETFIE---SWTPVLAETQELPAGTKISTRIIEGLRET  171
+            RC     E    W P+L   QELP G  I   +  GL+E 
+Sbjct  166  RCYPKLFEPGHDWQPILP-GQELPGGLNIRINMETGLKEA  282
+
+
+>lcl|Spar_11.334 [REAL/YGOBHMM; YGOB:Anc_1.240; HMM:2e-162; SCER:YKR043C; SYNT:YKR042W/0/YKR044W; 
+LEN:816; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=816
+
+ Score = 25.8 bits (55),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 30/103 (29%), Positives = 44/103 (43%), Gaps = 15/103 (15%)
+ Frame = +1
+
+Query  70   ILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPMAKQLGMLPHV--  127
+            I+R+G  +W       SG   G   D  LTP G+ Q+ RTG +V      Q     ++  
+Sbjct  28   IVRHGQTEWSK-----SGQYTG-LTDLPLTPYGEGQMLRTGESVF--RNNQFLNPDNITY  183
+
+Query  128  FFSSPMRRCLETFIESWTPVLAETQELPAGTKISTRIIEGLRE  170
+             F+SP  R  +T      P+  E +      KI   + + LRE
+Sbjct  184  IFTSPRLRARQTVDLVLKPLSDEQR-----AKIRVVVDDDLRE  297
+
+
+>lcl|Spar_16.458 [REAL/YGOBHMM; YGOB:Anc_3.419; HMM:0; SCER:YPR105C; SYNT:YPR104C/4/YPR106W; 
+LEN:2586; LDA:-1e+100; Ka/Ks:1e+100; OHNO:]
+Length=2586
+
+ Score = 26.2 bits (56),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 16/29 (55%), Gaps = 0/29 (0%)
+ Frame = +2
+
+Query  139  TFIESWTPVLAETQELPAGTKISTRIIEG  167
+            +F++ W P LA+TQE      I  R+I  
+Sbjct  263  SFMKPWVPYLAQTQEQKLYMMILKRLIRS  349
+
+
+>lcl|Spar_15.266 [REAL/YGOBHMM; YGOB:Anc_5.668; HMM:8.7e-103; SCER:YOR066W; SYNT:YOR065W/4/YOR067C; 
+LEN:1887; LDA:-1e+100; Ka/Ks:1e+100; OHNO:Spar_11.368]
+Length=1887
+
+ Score = 26.2 bits (56),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 11/32 (34%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+ Frame = -1
+
+Query  132   PMRRCLETFIESWTPVLAETQELPAGTKISTR  163
+             P RRC+ETF+ SW+    E    P    + ++
+Sbjct  1227  P*RRCIETFLASWSIRYIEQHFWPVSICVISK  1132
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 457332566
+
+
+  Database: Spar.fsa
+    Posted date:  Jul 11, 2017  4:21 PM
+  Number of letters in database: 8,547,339
+  Number of sequences in database:  7,068
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

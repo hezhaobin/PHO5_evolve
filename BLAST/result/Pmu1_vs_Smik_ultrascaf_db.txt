@@ -1,0 +1,147 @@
+TBLASTN 2.2.29+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Smik.ultrascaf
+           16 sequences; 11,450,123 total letters
+
+
+
+Query= Scer|YKL128C PMU1
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|Smik_11  654555bp [GAP=1; TRNA=16; CODING=314]                      506   7e-163
+lcl|Smik_15  1013536bp [GAP=3; TRNA=19; CODING=502]                   31.2    0.37  
+lcl|Smik_14  731595bp [GAP=5; TRNA=11; CODING=377]                    29.3    1.3   
+lcl|Smik_4  1444590bp [GAP=5; TRNA=28; CODING=733]                    29.3    1.5   
+lcl|Smik_16  800826bp [GAP=0; TRNA=18; CODING=396]                    28.9    1.9   
+
+
+>lcl|Smik_11 654555bp [GAP=1; TRNA=16; CODING=314]
+Length=654555
+
+ Score =   506 bits (1302),  Expect = 7e-163, Method: Compositional matrix adjust.
+ Identities = 246/295 (83%), Positives = 273/295 (93%), Gaps = 0/295 (0%)
+ Frame = -2
+
+Query  1       MSLRAVPGYFAAYPSEGFQGLDSTKYDHLELINHKNWKELYHAIPRNTKNRHYKLLILAR  60
+               MSLRAVPGYF+AYP+E FQGLDSTK DHL+LINHKNWKELY AIP++T++ HYKLLILAR
+Sbjct  187712  MSLRAVPGYFSAYPNEAFQGLDSTKNDHLQLINHKNWKELYDAIPKDTRSCHYKLLILAR  187533
+
+Query  61      HGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPMAKQ  120
+               HGQGYHNAAILRYGME+WDAYWSLLSGDEHGEWLDS+LTPLGKDQVRRTGSNVLLPM KQ
+Sbjct  187532  HGQGYHNAAILRYGMEEWDAYWSLLSGDEHGEWLDSRLTPLGKDQVRRTGSNVLLPMIKQ  187353
+
+Query  121     LGMLPHVFFSSPMRRCLETFIESWTPVLAETQELPAGTKISTRIIEGLRETLGSHTCDKR  180
+               LGMLPHVFFSSPMRRCLETFIESWTPVLAE  +   G+++STRIIE LRETLGSHTCDKR
+Sbjct  187352  LGMLPHVFFSSPMRRCLETFIESWTPVLAEVPKESFGSEVSTRIIESLRETLGSHTCDKR  187173
+
+Query  181     VAHSMAVDEYQDFSTESGHTVHWQYVPDYPEDDELWLPDHRETCAEMDKRTLNGLFELFN  240
+               V+HSM V+EYQ+F T+SGHTV WQY+PDYPE+DELWL DHRETCAE+DKRT +GL +LF+
+Sbjct  187172  VSHSMTVNEYQNFRTKSGHTVRWQYMPDYPEEDELWLVDHRETCAELDKRTQDGLSDLFS  186993
+
+Query  241     QLSSEEKFISLTCHSGVIQSVLRNLQHPPIYNLDTGKvvavvvevpvNTADRGRL  295
+               QLS EEKFISLTCHSGVIQSVLRNLQHPP+YNL+TGKVV V+VEVPVNT  + RL
+Sbjct  186992  QLSREEKFISLTCHSGVIQSVLRNLQHPPVYNLETGKVVGVIVEVPVNTISQDRL  186828
+
+
+ Score = 26.9 bits (58),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 30/103 (29%), Positives = 44/103 (43%), Gaps = 15/103 (15%)
+ Frame = -3
+
+Query  70      ILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPMAKQLGMLPHV--  127
+               I+R+G  +W       SG   G   D  LTP G+ Q+ RTG ++      Q     ++  
+Sbjct  511705  IVRHGQTEWSK-----SGQYTG-LTDLPLTPYGEGQMLRTGESIF--RNNQFLNPDNITY  511550
+
+Query  128     FFSSPMRRCLETFIESWTPVLAETQELPAGTKISTRIIEGLRE  170
+                F+SP  R  +T      P+  E +      KI   + E LRE
+Sbjct  511549  IFTSPRLRARQTVDLVLKPLSDEQR-----AKIRVVVDEDLRE  511436
+
+
+>lcl|Smik_15 1013536bp [GAP=3; TRNA=19; CODING=502]
+Length=1013536
+
+ Score = 31.2 bits (69),  Expect = 0.37, Method: Compositional matrix adjust.
+ Identities = 29/110 (26%), Positives = 44/110 (40%), Gaps = 24/110 (22%)
+ Frame = +3
+
+Query  53      YKLLILARHGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSN  112
+               +KL IL RHGQ   N+  +  G                  W+D+KLT  GK Q R +   
+Sbjct  187515  FKLFIL-RHGQSELNSENIFCG------------------WIDAKLTEKGKSQARHSAKL  187637
+
+Query  113     VLLPMAKQLGMLPHVFFSSPMRRCLETFIESWTPVLAETQELPAGTKIST  162
+               +          LP + ++S + R  +T       V+ E  EL +   + T
+Sbjct  187638  IRQFCNSNNISLPQIGYTSRLVRTQQTM-----NVILEELELKSENHVIT  187772
+
+
+>lcl|Smik_14 731595bp [GAP=5; TRNA=11; CODING=377]
+Length=731595
+
+ Score = 29.3 bits (64),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 21/45 (47%), Gaps = 5/45 (11%)
+ Frame = -1
+
+Query  95      DSKLTPLGKDQVRRTGSNVLLPMAKQLGMLPHVFFSSPMRRCLET  139
+               D  L+  G DQ     + +      +L   P + FSSP  RCLET
+Sbjct  399384  DVPLSEHGVDQAHELANYI-----SKLNAKPEIIFSSPFYRCLET  399265
+
+
+>lcl|Smik_4 1444590bp [GAP=5; TRNA=28; CODING=733]
+Length=1444590
+
+ Score = 29.3 bits (64),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 22/85 (26%), Positives = 33/85 (39%), Gaps = 18/85 (21%)
+ Frame = +1
+
+Query  56      LILARHGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLL  115
+               L L RHGQ   N   +  G                  W+D+KLT  GK+Q R +   +  
+Sbjct  394525  LFLLRHGQSELNHENIFCG------------------WIDAKLTEKGKEQARHSAQLIKQ  394650
+
+Query  116     PMAKQLGMLPHVFFSSPMRRCLETF  140
+                       LP + ++S + R  +T 
+Sbjct  394651  YCKTNHLQLPQIGYTSRLIRTQQTI  394725
+
+
+>lcl|Smik_16 800826bp [GAP=0; TRNA=18; CODING=396]
+Length=800826
+
+ Score = 28.9 bits (63),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 12/37 (32%), Positives = 24/37 (65%), Gaps = 0/37 (0%)
+ Frame = -3
+
+Query  104     DQVRRTGSNVLLPMAKQLGMLPHVFFSSPMRRCLETF  140
+               D+ RR+ +++LL   +++G+LP +FF   +   L+ F
+Sbjct  633379  DKFRRSFASILLIQIRRIGLLPTLFFGFNLPFALQHF  633269
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 774492705
+
+
+  Database: Smik.ultrascaf
+    Posted date:  Jul 8, 2017  4:20 PM
+  Number of letters in database: 11,450,123
+  Number of sequences in database:  16
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

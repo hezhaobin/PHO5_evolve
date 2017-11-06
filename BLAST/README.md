@@ -10,13 +10,64 @@ This analysis uses the annotated gene ORFs by Scannell et al 2012, and hopefully
 
 # Analysis
 
-## 1. Align to a ultra-scaffolds based database
+## [6 nov 2017] BLAST for _ScPMU1_ in _sensu stricto_ and outgroup species
 
-### Note
+_Goal_
+
+- Identify homologs of _ScPMU1_ in Ascomycetes that were not included in the [Orthogroup](https://portals.broadinstitute.org/cgi-bin/regev/orthogroups/show_orthogroup.cgi?og=13783)
+
+_Notes_
+
+- Following the same procedure as for _ScPHO5_, I identified exactly one hit per genome for Spar, Smik and Sbay.
+
+- Search homologs of _ScPMU1_ in other Ascomycetes using  BLASTP or tBLASTn on external websites
+
+    | Species          | SGD | CGD | GRYC | HMMER | BLAST | Orthogroup |
+    | ---------------- |:---:|:---:|:----:|:-----:|:-----:| ---------- |
+    | S. paradoxus     |     |     |      |       | 1     | 1          |
+    | S. bayanus       |     |     |      |       | 1     | 1          |
+    | S. mikatae       |     |     |      |       | 1     | 1          |
+    | C. glabrata      |     |  3  |  3   |  3    |       | 3          |
+    | N. bacillisporus |     |     |  1   |       |       |            |
+    | N. nivariensis   |     |     |  1   |       |       |            |
+    | N. delphensis    |     |     |  1   |       |       |            |
+    | N. castellii     |     |     |  0   |       |       |            |
+    | Naumovozyma castellii|1|     |  1   |  1    |       | 1[1]       |
+    | K. lactis        |  1  |     |  1   |  1    |       | 1          |
+    | L. kluyveri      |  1  |     |  1   |       |       | 1          |
+    | A. gossypii      |  1  |     |      |  1[2] |       | 1          |
+    | C. lusitaniae    |  2  |     |      |  2    |       | 2          |
+    | D. hansenii      |  4  |  4  |  4   |  4    |       | 4          |
+    | C. guilliermondii|  4[3]| 4  |      |  4[4] |       | 4          |
+    | C. tropicalis    |  3  |  6  |      |  6    |       | 6          |
+    | C. albicans      |  ?[5]| 5  |  2   |  7    |       | 5          |
+    | C. parapsilosis  |  3  |  5  |  5   |  5    |       | 5          |
+    | L. elongisporus  |     |  5  |      |  5    |       | 5[6]       |
+    | Y. lipolytica    |  1  |     |  1   |  1    |       | 1          |
+
+    [1] Saccharyomyces castellii
+    [2] Eremothecium gossypii
+    [3] Pichia guilliermondii
+    [4] Meyerozyma guilliermondii
+    [5] Many entries for scaffolds etc.
+    [6] L. elongosporus
+
+    **Conclusion**: 
+    
+    - for _PMU1_ homologs, Orthogroup got all lineages correctly, at least judged by the consensus of several sources
+    - it is somewhat surprising that the other _Nakaseomyces_ species have just one homolog, instead of 3 like _C. glabrata_ does. if this is correct, it would suggest that _C. glabrata_ has very recently duplicated the _PMU1_ family and neofunctionalized them...
+
+## [7-12 juillet 2017] Perform BLAST for _ScPHO5_ in _sensu stricto_ species
+
+### 1. Align to a ultra-scaffolds based database
+
+#### Note
 
 BLAST against the ultra-scaffolds, which were produced by MEGA-BLASTing the unordered scaffolds to the 16 _S. cerevisiae_ genome. This is in fact performed after the second analysis, but listed first because its result is more "coarse", as it only shows chromosomal position, not gene features.
 
-### Procedure
+#### Procedure
+
+1. Log in to Odyssey and start a computing session using `pty`. Load the BLAST module using `module load blast/2.2.29+-fasrc01`
 
 1. Download the ultra-scaffolds files (http://www.saccharomycessensustricto.org/current/Smik/Smik.ultrascaf)
 
@@ -26,7 +77,7 @@ BLAST against the ultra-scaffolds, which were produced by MEGA-BLASTing the unor
 
 1. Perform BLAST `tblastn -query Pho5.fa -db ./db/ultra-scaffolds/Smik.ultrascaf -out ./result/Pho5_vs_ultrascaf_db.txt`
 
-### Result
+#### Result
 
 Identified Smik_2 (ultra-scaffold 2) as significant. Within this ultra-scaffold there are three significant hits
 
@@ -36,9 +87,9 @@ Identified Smik_2 (ultra-scaffold 2) as significant. Within this ultra-scaffold 
 | 2 | 414013 | 412613 | 407/467 (87%) | 0/467 (0%) | 847   |
 | 3 | 412125 | 410725 | 380/467 (81%) | 0/467 (0%) | 789   |
 
-## 2. Align to a feature-based database
+### 2. Align to a feature-based database
 
-### Procedure
+#### Procedure
 
 1. Log in to Odyssey and start a computing session using `pty`. Load the BLAST module using `module load blast/2.2.29+-fasrc01`
 
@@ -46,7 +97,7 @@ Identified Smik_2 (ultra-scaffold 2) as significant. Within this ultra-scaffold 
 
 1. I then performed the search using `tblastn -query Pho5.fa -db Smik.fsa -out test` to execute the search.
 
-### Result
+#### Result
 
 * There are three significant hits, all on the same "ultra-scaffold" (Smik-2). See above for statistics.
 
@@ -66,9 +117,9 @@ Identified Smik_2 (ultra-scaffold 2) as significant. Within this ultra-scaffold 
 
 * Finally, the sequences of these three genes are extracted by `grep "Smik\_2\.235\|Smik\_2\.234\|Smik\_2\.233" Smik.aa -A 1 > result/Smik_PHO5_ortholog.fa`
 
-## 3. Repeat the above procedure with _S. paradoxus_ and _S. bayanus_
+### 3. Repeat the above procedure with _S. paradoxus_ and _S. bayanus_
 
-### _S. paradoxus_ result
+#### _S. paradoxus_ result
 
 Identified four significant hits in _S. paradoxus_, distributed across three ultra-scaffolds.
 
@@ -91,7 +142,7 @@ Among them, Spar_2.252 appears to be a pseudogene. It matches ScPho5 in two "par
 
 The third and fourth rows are next to each other physically, representing the likely-to-be pseudogene.
 
-### _S. bayanus_ result
+#### _S. bayanus_ result
 
 Identified four significant hits in _S. bayanus_, distributed across two ultra-scaffolds.
 
@@ -110,3 +161,5 @@ Identified four significant hits in _S. bayanus_, distributed across two ultra-s
 | Spar_4 | 400393 | 398996 | 309/466 (66%) | 1/466 (0%) | 656   |
 
 Among these, the first two appear to be recent (tandem) duplicates.
+
+

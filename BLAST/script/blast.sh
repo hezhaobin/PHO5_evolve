@@ -7,6 +7,7 @@
 # author: Bin He
 # date: 10-11 juillet 2017
 # modified:
+#       6 nov 2017, to perform BLAST for ScPMU1
 # usage: sh blast.sh
 # ---
 
@@ -31,17 +32,34 @@ makeblastdb -in Sbay.ultrascaf -parse_seqids -dbtype nucl
 wget http://www.saccharomycessensustricto.org/current/Spar/Spar.ultrascaf
 makeblastdb -in Spar.ultrascaf -parse_seqids -dbtype nucl
 
+# load BLAST
+module load blast/2.2.29+-fasrc01
+
 # Perform tblastn
 cd ../../
-for s in Smik Spar Sbay
+
+# PHO5
+for i in Smik Spar Sbay
 do
 	tblastn -query data/Pho5.fa -db db/features/${i}.fsa -out result/Pho5_vs_${i}_features_db.txt
 done
 
-for s in Smik Spar Sbay
+for i in Smik Spar Sbay
 do
-	tblastn -query data/Pho5.fa -db db/features/${i}.ultrascaf -out result/Pho5_vs_${i}_ultrascaf_db.txt
+	tblastn -query data/Pho5.fa -db db/ultra-scaffolds/${i}.ultrascaf -out result/Pho5_vs_${i}_ultrascaf_db.txt
 done
+
+# PMU1
+for i in Smik Spar Sbay
+do
+	tblastn -query data/Pmu1.fa -db db/features/${i}.fsa -out result/Pmu1_vs_${i}_features_db.txt
+done
+
+for i in Smik Spar Sbay
+do
+	tblastn -query data/Pmu1.fa -db db/ultra-scaffolds/${i}.ultrascaf -out result/Pmu1_vs_${i}_ultrascaf_db.txt
+done
+
 
 # Extract sequences
 grep "Smik\_2\.233\|Smik\_2\.234\|Smik\_2\.235" ./data/Smik.aa -A 1 > ./result/Smik_PHO5_ortholog.fa

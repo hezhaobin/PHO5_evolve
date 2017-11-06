@@ -1,0 +1,160 @@
+TBLASTN 2.2.29+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Sbay.ultrascaf
+           16 sequences; 11,502,913 total letters
+
+
+
+Query= Scer|YKL128C PMU1
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|Sbay_11  635711bp [GAP=7; TRNA=16; CODING=310]                      479   7e-154
+lcl|Sbay_15  763749bp [GAP=12; TRNA=17; CODING=381]                   28.9    1.7   
+lcl|Sbay_4  983774bp [GAP=16; TRNA=13; CODING=505]                    28.1    2.7   
+lcl|Sbay_12  445542bp [GAP=9; TRNA=19; CODING=225]                    27.3    5.9   
+lcl|Sbay_3  295075bp [GAP=9; TRNA=9; CODING=154]                      26.9    7.0   
+
+
+>lcl|Sbay_11 635711bp [GAP=7; TRNA=16; CODING=310]
+Length=635711
+
+ Score =   479 bits (1234),  Expect = 7e-154, Method: Compositional matrix adjust.
+ Identities = 233/291 (80%), Positives = 259/291 (89%), Gaps = 0/291 (0%)
+ Frame = -3
+
+Query  1       MSLRAVPGYFAAYPSEGFQGLDSTKYDHLELINHKNWKELYHAIPRNTKNRHYKLLILAR  60
+               M  +AVPGYFAAYP+ GFQGLDSTK DHL+LINH +WKELYHAIP++T+N HYKLLILAR
+Sbjct  188583  MQFKAVPGYFAAYPNAGFQGLDSTKNDHLQLINHNDWKELYHAIPKDTRNCHYKLLILAR  188404
+
+Query  61      HGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPMAKQ  120
+               HGQGYHNAAI RYGME+WDAYWSLLSGDEHGEW DS+LTPLGK+QVR TG+NVLLPM KQ
+Sbjct  188403  HGQGYHNAAISRYGMEEWDAYWSLLSGDEHGEWFDSRLTPLGKEQVRGTGTNVLLPMIKQ  188224
+
+Query  121     LGMLPHVFFSSPMRRCLETFIESWTPVLAETQELPAGTKISTRIIEGLRETLGSHTCDKR  180
+               LGMLPHVFFSSPMRRCLETFIESWTPVL E Q+ P+G  ISTRIIE LRETLGSHTCDKR
+Sbjct  188223  LGMLPHVFFSSPMRRCLETFIESWTPVLTEIQKPPSGNVISTRIIESLRETLGSHTCDKR  188044
+
+Query  181     VAHSMAVDEYQDFSTESGHTVHWQYVPDYPEDDELWLPDHRETCAEMDKRTLNGLFELFN  240
+               V HS+ V EYQDF T+SGHTVHW YV DY E+DELWL DHRET  E+D RT +GL +LF+
+Sbjct  188043  VNHSVTVGEYQDFPTDSGHTVHWHYVTDYSEEDELWLVDHRETNPELDMRTQDGLSQLFS  187864
+
+Query  241     QLSSEEKFISLTCHSGVIQSVLRNLQHPPIYNLDTGKvvavvvevpvNTAD  291
+               QLSSEE+F+SLTCHSGVIQSVLRNL+HPPIYNL+TGKVV +VVEVP+N  D
+Sbjct  187863  QLSSEERFVSLTCHSGVIQSVLRNLKHPPIYNLETGKVVGIVVEVPINVED  187711
+
+
+ Score = 29.6 bits (65),  Expect = 0.91, Method: Compositional matrix adjust.
+ Identities = 32/103 (31%), Positives = 44/103 (43%), Gaps = 15/103 (15%)
+ Frame = -2
+
+Query  70      ILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLLPMAKQLGMLPHV--  127
+               I+R+G  +W       SG   G   D  LTP G+ Q+ RTG +V      Q     H+  
+Sbjct  504940  IVRHGQTEWSK-----SGQYTG-LTDLPLTPYGEGQMLRTGESVF--RNNQFLNPDHITY  504785
+
+Query  128     FFSSPMRRCLETFIESWTPVLAETQELPAGTKISTRIIEGLRE  170
+                F+SP  R  +T      P+  E +      KI   + E LRE
+Sbjct  504784  IFTSPRLRARQTVDLVLKPLSDEQR-----AKIRVVVDEDLRE  504671
+
+
+>lcl|Sbay_15 763749bp [GAP=12; TRNA=17; CODING=381]
+Length=763749
+
+ Score = 28.9 bits (63),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 24/88 (27%), Positives = 36/88 (41%), Gaps = 19/88 (22%)
+ Frame = +2
+
+Query  53      YKLLILARHGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSN  112
+               +KL IL RHGQ   N+  +  G                  W+D+KLT  GK Q R +   
+Sbjct  195875  FKLFIL-RHGQSELNSENIFCG------------------WIDAKLTEKGKSQARHSAKL  195997
+
+Query  113     VLLPMAKQLGMLPHVFFSSPMRRCLETF  140
+               +          LP + ++S + R  +T 
+Sbjct  195998  IKQYSDTNNIPLPQIGYTSRLVRTEQTM  196081
+
+
+>lcl|Sbay_4 983774bp [GAP=16; TRNA=13; CODING=505]
+Length=983774
+
+ Score = 28.1 bits (61),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 22/85 (26%), Positives = 33/85 (39%), Gaps = 18/85 (21%)
+ Frame = +1
+
+Query  56      LILARHGQGYHNAAILRYGMEKWDAYWSLLSGDEHGEWLDSKLTPLGKDQVRRTGSNVLL  115
+               L L RHGQ   N   +  G                  W+D+KLT  GK+Q R +   +  
+Sbjct  404791  LFLLRHGQSELNHENIFCG------------------WIDAKLTEKGKEQARHSAELIKQ  404916
+
+Query  116     PMAKQLGMLPHVFFSSPMRRCLETF  140
+                       LP + ++S + R  +T 
+Sbjct  404917  YCETNHLDLPQIGYTSRLIRTQQTI  404991
+
+
+>lcl|Sbay_12 445542bp [GAP=9; TRNA=19; CODING=225]
+Length=445542
+
+ Score = 27.3 bits (59),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 20/36 (56%), Gaps = 3/36 (8%)
+ Frame = +3
+
+Query  101     LGKDQVRRTGSNVLLPMAKQLGMLPHVFFSSPMRRC  136
+               LG D +   G   +LP+  ++G+ PH+   SP  RC
+Sbjct  223797  LGIDLLLCIGRRTMLPLGSRVGLCPHI---SPPSRC  223895
+
+
+>lcl|Sbay_3 295075bp [GAP=9; TRNA=9; CODING=154]
+Length=295075
+
+ Score = 26.9 bits (58),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 20/70 (29%), Positives = 27/70 (39%), Gaps = 16/70 (23%)
+ Frame = -1
+
+Query  156    AGTKISTRIIEGLRETL---GSHTCD-------------KRVAHSMAVDEYQDFSTESGH  199
+               G K S  I E L ET+   G  +CD               +  ++  D Y     ESG 
+Sbjct  49894  CGAKGSIDISEFLTETIRGPGDFSCDLETRQCKFSEPSMNDLILTIFGDPYITLKCESGE  49715
+
+Query  200    TVHWQYVPDY  209
+               VH+  +P Y
+Sbjct  49714  CVHYSEIPGY  49685
+
+
+ Score = 26.9 bits (58),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 23/39 (59%), Gaps = 1/39 (3%)
+ Frame = +3
+
+Query  236    FELFNQLSSEEKFISLTCHSGVIQSVLRNLQHPPIYNLD  274
+              FEL  Q+S+  K I+++ HSG I  VL       ++NL+
+Sbjct  98913  FELVRQISAGAKRIAISQHSGSIM-VLNENNAISVFNLN  99026
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 778064896
+
+
+  Database: Sbay.ultrascaf
+    Posted date:  Jul 11, 2017  4:19 PM
+  Number of letters in database: 11,502,913
+  Number of sequences in database:  16
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40
