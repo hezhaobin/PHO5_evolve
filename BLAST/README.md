@@ -52,10 +52,10 @@ _Notes_
     [5] Many entries for scaffolds etc.
     [6] L. elongosporus
 
-    **Conclusion**: 
-    
-    - for _PMU1_ homologs, Orthogroup got all lineages correctly, at least judged by the consensus of several sources
-    - it is somewhat surprising that the other _Nakaseomyces_ species have just one homolog, instead of 3 like _C. glabrata_ does. if this is correct, it would suggest that _C. glabrata_ has very recently duplicated the _PMU1_ family and neofunctionalized them...
+_Conclusion_ 
+
+- for _PMU1_ homologs, Orthogroup got all lineages correctly, at least judged by the consensus of several sources
+- it is somewhat surprising that the other _Nakaseomyces_ species have just one homolog, instead of 3 like _C. glabrata_ does. if this is correct, it would suggest that _C. glabrata_ has very recently duplicated the _PMU1_ family and neofunctionalized them...
 
 ## [7-12 juillet 2017] Perform BLAST for _ScPHO5_ in _sensu stricto_ species
 
