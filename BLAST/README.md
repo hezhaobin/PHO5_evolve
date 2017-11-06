@@ -28,6 +28,7 @@ _Notes_
     | S. bayanus       |     |     |      |       | 1     | 1          |
     | S. mikatae       |     |     |      |       | 1     | 1          |
     | C. glabrata      |     |  3  |  3   |  3    |       | 3          |
+    | N. bracarensis   |     |     |  1   |       |       |            |
     | N. bacillisporus |     |     |  1   |       |       |            |
     | N. nivariensis   |     |     |  1   |       |       |            |
     | N. delphensis    |     |     |  1   |       |       |            |
