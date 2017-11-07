@@ -40,4 +40,7 @@ Approach
 	* Manually curate the tree
 
 
+Notes
+=====
 
+Separate README.md files under `docs` folder
