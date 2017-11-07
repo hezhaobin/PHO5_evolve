@@ -10,7 +10,9 @@ This analysis uses the annotated gene ORFs by Scannell et al 2012, and hopefully
 
 # Analysis
 
-## [6 nov 2017] BLAST for _ScPMU1_ in _sensu stricto_ and outgroup species
+## [6 nov 2017] Cross-check Orthogroup completeness
+
+### _ScPMU1_
 
 #### _Goal_
 
@@ -60,6 +62,58 @@ This analysis uses the annotated gene ORFs by Scannell et al 2012, and hopefully
 
 - for _PMU1_ homologs, Orthogroup got all lineages correctly, at least judged by the consensus of several sources
 - it is somewhat surprising that the other _Nakaseomyces_ species have just one homolog, instead of 3 like _C. glabrata_ does. if this is correct, it would suggest that _C. glabrata_ has very recently duplicated the _PMU1_ family and neofunctionalized them...
+
+### _ScPHO5_
+
+#### Goal
+
+Same as above
+
+#### Notes
+
+- Have run tblastn against the _sensu stricto_ species before
+
+- Similarly searched _L. waltii_ using tblasn, and got 4 hits. But because I only have the chromosome sequences, not the feature ones, I didn't identify which genes they correspond to.
+    
+- Search homologs of _ScPMU1_ in other Ascomycetes using  BLASTP or tBLASTn on external websites
+
+    | Species            | SGD | CGD | GRYC | HMMER | BLAST | Orthogroup |
+    | ------------------ |:---:|:---:|:----:|:-----:|:-----:| ---------- |
+    | _S. paradoxus_     |     |     |      |       | 3     | 3          |
+    | _S. bayanus_       |     |     |      |       | 4     | 4          |
+    | _S. mikatae_       |     |     |      |       | 3     | 3          |
+    | _C. glabrata_      |     |  0  |  0   |  0    |       | 0          |
+    | _N. bracarensis_   |     |     |  0   |       |       |            |
+    | _N. bacillisporus_ |     |     |  1   |       |       |            |
+    | _N. nivariensis_   |     |     |  0   |       |       |            |
+    | _N. delphensis_    |     |     |  0   |       |       |            |
+    | _N. castellii_     |     |     |  1   |       |       |            |
+    | _Naumovozyma castellii_|0|     |  0   |  0    |       | 0[1]       |
+    | _K. lactis_        |  5  |     |  5   |  5    |       | 1[a]       |
+    | _L. kluyveri_      |  2  |     |  2   |       |       | 1[b]       |
+    | _L. waltii_        |  3  |     |  3   |       |   3   | 1[c]       |
+    | _A. gossypii_      |  0  |     |      |  0[2] |       | 0          |
+    | _C. lusitaniae_    |  1  |     |      |  1    |       | 1          |
+    | _D. hansenii_      |  2  |  4  |  2   |  3    |       | 3          |
+    | _C. guilliermondii_| 1[3]|  4  |      |  1[4] |       | 1          |
+    | _C. tropicalis_    |  2  |  6  |      |  4    |       | 4          |
+    | _C. albicans_      |  3  |  3  |  0   |  8[5] |       | 3          |
+    | _C. parapsilosis_  |  2  |  2  |  0   |  2    |       | 2          |
+    | _L. elongisporus_  |  3  |  3  |      |  3    |       | 1[d]       |
+    | _Y. lipolytica_    |  1  |     |  1   |  1    |       | 0[e]       |
+    | _S. japonicus_     |  2  |     |      |  2    |       | 1[f]       |
+    | _S. octosporus_    |  2  |     |      |  2    |       | 2          |
+    | _S. pombe_         |  1  |     |      |  3    |       | 3          |
+
+    [1] _Saccharyomyces castellii_
+    [2] _Eremothecium gossypii_
+    [3] _Pichia guilliermondii_
+    [4] _Meyerozyma guilliermondii_
+    [5] 3/8 have CAALxxx ID, while the rest are different.
+    [6] _L. elongosporus_
+    [a-f] If I include the HMMSEARCH results, the numbers will be a+3, b+1, c+2, d+2, e+1, f+1 
+
+
 
 ## [7-12 juillet 2017] Perform BLAST for _ScPHO5_ in _sensu stricto_ species
 
@@ -162,7 +216,7 @@ Identified four significant hits in _S. bayanus_, distributed across two ultra-s
 | Sbay_4 | 599884 | 598484 | 409/467 (88%) | 0/467 (0%) | 843   |
 | Sbay_4 | 598032 | 596632 | 396/467 (85%) | 0/467 (0%) | 823   |
 | Sbay_9 |   5199 |   3841 | 376/453 (83%) | 0/453 (0%) | 782   |
-| Spar_4 | 400393 | 398996 | 309/466 (66%) | 1/466 (0%) | 656   |
+| Sbay_4 | 400393 | 398996 | 309/466 (66%) | 1/466 (0%) | 656   |
 
 Among these, the first two appear to be recent (tandem) duplicates.
 
