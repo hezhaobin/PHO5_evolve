@@ -1,0 +1,97 @@
+TBLASTN 2.2.29+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Lwaltii_sequence.fsa
+           64 sequences; 10,934,767 total letters
+
+
+
+Query= Scer|YKL128C PMU1
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|kwal_s_55                                                         29.6    0.94 
+lcl|kwal_s_26                                                         27.3    5.5  
+lcl|kwal_s_23                                                         26.6    9.9  
+
+
+>lcl|kwal_s_55 
+Length=1178511
+
+ Score = 29.6 bits (65),  Expect = 0.94, Method: Compositional matrix adjust.
+ Identities = 25/72 (35%), Positives = 33/72 (46%), Gaps = 13/72 (18%)
+ Frame = -3
+
+Query  100      PLGKDQVRRTGSNVLLPMAKQLGMLPHVFFSSPMRRCLETFIESWTPVLAET-----QEL  154
+                PLG      +G   L  ++K LG    +   +P +  L   I+ W   +AET      E 
+Sbjct  1162483  PLG------SGKWQLFELSKDLGETRDLSEENPKK--LAELIDYWAIYVAETGLVEINEY  1162328
+
+Query  155      PAGTKISTRIIE  166
+                PAGTK   RIIE
+Sbjct  1162327  PAGTKYHRRIIE  1162292
+
+
+ Score = 26.9 bits (58),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 8/19 (42%), Positives = 16/19 (84%), Gaps = 0/19 (0%)
+ Frame = +3
+
+Query  66     HNAAILRYGMEKWDAYWSL  84
+              HN++I R+G+E+ D +W++
+Sbjct  66558  HNSSIGRFGIEQTDFFWTI  66614
+
+
+>lcl|kwal_s_26 
+Length=1307555
+
+ Score = 27.3 bits (59),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 13/26 (50%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+ Frame = -2
+
+Query  133      MRRCLETFIESWTPVLAETQELPAGT  158
+                M RC E  I  ++PVLA     PAGT
+Sbjct  1119394  MWRCTENLISVFSPVLALPSWTPAGT  1119317
+
+
+>lcl|kwal_s_23 
+Length=1663270
+
+ Score = 26.6 bits (57),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 11/26 (42%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+ Frame = -2
+
+Query  15     SEGFQGLDSTKYDHLELINHKNWKEL  40
+              S+G QG    K+D L+LIN+++++ L
+Sbjct  55005  SKGLQGFSL*KHD*LKLINYRSYRRL  54928
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 738723902
+
+
+  Database: Lwaltii_sequence.fsa
+    Posted date:  Nov 6, 2017  8:31 PM
+  Number of letters in database: 10,934,767
+  Number of sequences in database:  64
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

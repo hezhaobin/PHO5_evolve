@@ -11,6 +11,9 @@
 # usage: sh blast.sh
 # ---
 
+# load BLAST
+module load blast/2.2.29+-fasrc01
+
 # download sequence and make database
 cd ../db/features
 wget http://www.saccharomycessensustricto.org/current/Smik/Smik.fsa
@@ -32,8 +35,9 @@ makeblastdb -in Sbay.ultrascaf -parse_seqids -dbtype nucl
 wget http://www.saccharomycessensustricto.org/current/Spar/Spar.ultrascaf
 makeblastdb -in Spar.ultrascaf -parse_seqids -dbtype nucl
 
-# load BLAST
-module load blast/2.2.29+-fasrc01
+cd ../other/
+wget http://ygob.ucd.ie/ygob/data/v7-Aug2012/Lwaltii_sequence.fsa
+makeblastdb -in Lwaltii_sequence.fsa -parse_seqids -dbtype nucl
 
 # Perform tblastn
 cd ../../
@@ -60,6 +64,7 @@ do
 	tblastn -query data/Pmu1.fa -db db/ultra-scaffolds/${i}.ultrascaf -out result/Pmu1_vs_${i}_ultrascaf_db.txt
 done
 
+tblastn -query data/Pmu1.fa -db db/other/Lwaltii_sequence.fsa -out result/Pmu1_vs_Lwal_sequence.txt
 
 # Extract sequences
 grep "Smik\_2\.233\|Smik\_2\.234\|Smik\_2\.235" ./data/Smik.aa -A 1 > ./result/Smik_PHO5_ortholog.fa

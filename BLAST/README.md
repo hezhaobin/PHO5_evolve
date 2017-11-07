@@ -12,48 +12,51 @@ This analysis uses the annotated gene ORFs by Scannell et al 2012, and hopefully
 
 ## [6 nov 2017] BLAST for _ScPMU1_ in _sensu stricto_ and outgroup species
 
-_Goal_
+#### _Goal_
 
 - Identify homologs of _ScPMU1_ in Ascomycetes that were not included in the [Orthogroup](https://portals.broadinstitute.org/cgi-bin/regev/orthogroups/show_orthogroup.cgi?og=13783)
 
-_Notes_
+#### _Notes_
 
 - Following the same procedure as for _ScPHO5_, I identified exactly one hit per genome for Spar, Smik and Sbay.
 
+- Because I can't seem to identify any homolog for _ScPMU1_ in _L. waltii_ using any of the websites, I downloaded its genome from YGOB and did tblastn on it, got 0 hit.
+
 - Search homologs of _ScPMU1_ in other Ascomycetes using  BLASTP or tBLASTn on external websites
 
-    | Species          | SGD | CGD | GRYC | HMMER | BLAST | Orthogroup |
-    | ---------------- |:---:|:---:|:----:|:-----:|:-----:| ---------- |
-    | S. paradoxus     |     |     |      |       | 1     | 1          |
-    | S. bayanus       |     |     |      |       | 1     | 1          |
-    | S. mikatae       |     |     |      |       | 1     | 1          |
-    | C. glabrata      |     |  3  |  3   |  3    |       | 3          |
-    | N. bracarensis   |     |     |  1   |       |       |            |
-    | N. bacillisporus |     |     |  1   |       |       |            |
-    | N. nivariensis   |     |     |  1   |       |       |            |
-    | N. delphensis    |     |     |  1   |       |       |            |
-    | N. castellii     |     |     |  0   |       |       |            |
-    | Naumovozyma castellii|1|     |  1   |  1    |       | 1[1]       |
-    | K. lactis        |  1  |     |  1   |  1    |       | 1          |
-    | L. kluyveri      |  1  |     |  1   |       |       | 1          |
-    | A. gossypii      |  1  |     |      |  1[2] |       | 1          |
-    | C. lusitaniae    |  2  |     |      |  2    |       | 2          |
-    | D. hansenii      |  4  |  4  |  4   |  4    |       | 4          |
-    | C. guilliermondii|  4[3]| 4  |      |  4[4] |       | 4          |
-    | C. tropicalis    |  3  |  6  |      |  6    |       | 6          |
-    | C. albicans      |  ?[5]| 5  |  2   |  7    |       | 5          |
-    | C. parapsilosis  |  3  |  5  |  5   |  5    |       | 5          |
-    | L. elongisporus  |     |  5  |      |  5    |       | 5[6]       |
-    | Y. lipolytica    |  1  |     |  1   |  1    |       | 1          |
+    | Species            | SGD | CGD | GRYC | HMMER | BLAST | Orthogroup |
+    | ------------------ |:---:|:---:|:----:|:-----:|:-----:| ---------- |
+    | _S. paradoxus_     |     |     |      |       | 1     | 1          |
+    | _S. bayanus_       |     |     |      |       | 1     | 1          |
+    | _S. mikatae_       |     |     |      |       | 1     | 1          |
+    | _C. glabrata_      |     |  3  |  3   |  3    |       | 3          |
+    | _N. bracarensis_   |     |     |  1   |       |       |            |
+    | _N. bacillisporus_ |     |     |  1   |       |       |            |
+    | _N. nivariensis_   |     |     |  1   |       |       |            |
+    | _N. delphensis_    |     |     |  1   |       |       |            |
+    | _N. castellii_     |     |     |  0   |       |       |            |
+    | _Naumovozyma castellii_|1|     |  1   |  1    |       | 1[1]       |
+    | _K. lactis_        |  1  |     |  1   |  1    |       | 1          |
+    | _L. kluyveri_      |  1  |     |  1   |       |       | 1          |
+    | _L. waltii_        |  0  |     |      |  0    |   0   | 0          |
+    | _A. gossypii_      |  1  |     |      |  1[2] |       | 1          |
+    | _C. lusitaniae_    |  2  |     |      |  2    |       | 2          |
+    | _D. hansenii_      |  4  |  4  |  4   |  4    |       | 4          |
+    | _C. guilliermondii_| 4[3]|  4  |      |  4[4] |       | 4          |
+    | _C. tropicalis_    |  3  |  6  |      |  6    |       | 6          |
+    | _C. albicans_      | ?[5]|  5  |  2   |  7    |       | 5          |
+    | _C. parapsilosis_  |  3  |  5  |  5   |  5    |       | 5          |
+    | _L. elongisporus_  |     |  5  |      |  5    |       | 5[6]       |
+    | _Y. lipolytica_    |  1  |     |  1   |  1    |       | 1          |
 
-    [1] Saccharyomyces castellii
-    [2] Eremothecium gossypii
-    [3] Pichia guilliermondii
-    [4] Meyerozyma guilliermondii
+    [1] _Saccharyomyces castellii_
+    [2] _Eremothecium gossypii_
+    [3] _Pichia guilliermondii_
+    [4] _Meyerozyma guilliermondii_
     [5] Many entries for scaffolds etc.
-    [6] L. elongosporus
+    [6] _L. elongosporus_
 
-_Conclusion_ 
+#### _Conclusion_ 
 
 - for _PMU1_ homologs, Orthogroup got all lineages correctly, at least judged by the consensus of several sources
 - it is somewhat surprising that the other _Nakaseomyces_ species have just one homolog, instead of 3 like _C. glabrata_ does. if this is correct, it would suggest that _C. glabrata_ has very recently duplicated the _PMU1_ family and neofunctionalized them...
