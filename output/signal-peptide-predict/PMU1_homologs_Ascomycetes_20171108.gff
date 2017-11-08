@@ -1,0 +1,20 @@
+##gff-version 2
+##sequence-name	source	feature	start	end	score	N/A ?
+## ---------------------------------------------------------
+Cgla_CAGL0K07568g	SignalP-4.1	SIGNAL	1	20	0.464	.	.	YES
+Cgla_CAGL0K07546g	SignalP-4.1	SIGNAL	1	20	0.423	.	.	MAYBE
+Cgla_CAGL0K07524g	SignalP-4.1	SIGNAL	1	20	0.454	.	.	YES
+Agos_AEL304C	SignalP-4.1	SIGNAL	1	18	0.592	.	.	YES
+Dhan_DEHA2G04422g	SignalP-4.1	SIGNAL	1	17	0.729	.	.	YES
+Cgui_PGUG02971.1	SignalP-4.1	SIGNAL	1	19	0.741	.	.	YES
+Ctro_CTRG05833.3	SignalP-4.1	SIGNAL	1	25	0.427	.	.	MAYBE
+Ctro_CTRG05671.3	SignalP-4.1	SIGNAL	1	24	0.546	.	.	YES
+Ctro_CTRG02612.3	SignalP-4.1	SIGNAL	1	18	0.616	.	.	YES
+Calb_orf19.7596	SignalP-4.1	SIGNAL	1	19	0.784	.	.	YES
+Calb_orf19.7597	SignalP-4.1	SIGNAL	1	19	0.705	.	.	YES
+Cpar_CPAG01552	SignalP-4.1	SIGNAL	1	18	0.895	.	.	YES
+Cpar_CPAG00993	SignalP-4.1	SIGNAL	1	18	0.821	.	.	YES
+Lelo_LELG05269	SignalP-4.1	SIGNAL	1	18	0.799	.	.	YES
+Lelo_LELG01999	SignalP-4.1	SIGNAL	1	20	0.693	.	.	YES
+Anid_AN1218	SignalP-4.1	SIGNAL	1	23	0.472	.	.	YES
+Ncra_NCU02927	SignalP-4.1	SIGNAL	1	23	0.717	.	.	YES

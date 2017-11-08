@@ -50,6 +50,9 @@ This analysis uses the annotated gene ORFs by Scannell et al 2012, and hopefully
     | _C. parapsilosis_  |  3  |  5  |  5   |  5    |       | 5          |
     | _L. elongisporus_  |     |  5  |      |  5    |       | 5[6]       |
     | _Y. lipolytica_    |  1  |     |  1   |  1    |       | 1          |
+    | _A. nidulans_
+    | _N. crassa_        |     |     |      |       |       |            |
+
 
     [1] _Saccharyomyces castellii_
     [2] _Eremothecium gossypii_
@@ -101,7 +104,9 @@ Same as above
     | _C. parapsilosis_  |  2  |  2  |  0   |  2    |       | 2          |
     | _L. elongisporus_  |  3  |  3  |      |  3    |       | 1[d]       |
     | _Y. lipolytica_    |  1  |     |  1   |  1    |       | 0[e]       |
-    | _S. japonicus_     |  2  |     |      |  2    |       | 1[f]       |
+    | _A. nidulans_      |     |     |      |  2    |       | 0[f]       |
+    | _N. crassa_        |     |     |      |  2    |       | 0          |
+    | _S. japonicus_     |  2  |     |      |  2    |       | 1[g]       |
     | _S. octosporus_    |  2  |     |      |  2    |       | 2          |
     | _S. pombe_         |  1  |     |      |  3    |       | 3          |
 
@@ -111,7 +116,7 @@ Same as above
     [4] _Meyerozyma guilliermondii_
     [5] 3/8 have CAALxxx ID, while the rest are different.
     [6] _L. elongosporus_
-    [a-f] If I include the HMMSEARCH results, the numbers will be a+3, b+1, c+2, d+2, e+1, f+1 
+    [a-g] If I include the HMMSEARCH results, the numbers will be a+3, b+1, c+2, d+2, e+1, f+2, g+1 
 
 
 
