@@ -41,9 +41,10 @@ _Results_
 TABLE  Gene Name Correspondence Map
 
 | Species | Gene Name in Orthogroup | Gene Name from BLAST if different | Also known as |
+| ------- | ----------------------- | --------------------------------- | ------------- |
 | S. mikatae | Smik87-g4.1 | Smik_2.235 |\ |
 | S. mikatae | Smik87-g5.1 | Smik_2.234 |\ |
-| S. mikatae | ** missing ** | Smik_2.233 |\ |
+| S. mikatae | **missing** | Smik_2.233 |\ |
 | S. pombe | SPBP4G3.02 |\ | pho1 |
 | S. pombe | SPBC428.03c |\ | pho4 |
 | S. pombe | SPBC21H7.03c |\ | N/A |
