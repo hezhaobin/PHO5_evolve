@@ -1,39 +1,67 @@
-(
-'Anid':4,
-'Ncra':4,
-(
-'Clus':4,
-'Ylip':4,
-(
-'Lelo':4,
-(
-'Ctro':4,
-'Cpar':4,
-'Calb':4
-)Candida:4,
-'Dhan':4,
-'Cgui':4
-)Debaryomycetaceae:4,
-(
-'Egos':4,
-'Klac':4,
-'Ncas':4,
-'Cgla':4,
-(
-'Smik':4,
-'Spar':4,
-'Scer':4,
-'Sbay':4
-)Saccharomyces:4,
-(
-'Lklu':4,
-'Lwal':4
-)Lachancea:4
-)Saccharomycetaceae:4
-)Saccharomycetales:4,
-(
-'Soct':4,
-'Sjap':4,
-'Spom':4
-)Schizosaccharomyces:4
-)Ascomycota:4;
+( 
+ (
+  'Sjap',
+  (
+   'Soct',
+   'Spom'
+  )
+ )Schizosaccharomyces,
+ (
+  (
+   'Anid',
+   'Ncra'
+  ),
+  (
+   'Ylip',
+   (
+    (
+     'Clus',
+     (
+      (
+       'Dhan',
+       'Cgui'
+      ),
+      (
+       (
+	'Lelo',
+	'Cpar'
+       ),
+       (
+	'Ctro',
+	'Calb'
+       )
+      )
+     )Candida
+    )Debaryomycetaceae,
+    (
+     (
+      (
+       'Egos',
+       'Klac'
+      ),
+      (
+       'Lklu',
+       'Lwal'
+      )Lachancea
+     ),
+     (
+      'Ncas',
+      (
+       'Cgla',
+       (
+	'Sbay',
+	(
+	 'Smik',
+	 (
+	  'Spar',
+	  'Scer'
+	 )
+	)
+       )Saccharomyces
+      )
+     )
+    )Saccharomycetaceae
+   )Saccharomycetales
+  )Saccharomycotina
+ )
+)Ascomycota;

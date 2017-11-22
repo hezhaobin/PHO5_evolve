@@ -19,4 +19,8 @@ After [talking to Josh](/docs/2017-11-18-discuss-with-josh-on-phosphatase-duplic
 - Installed Notung 2.9 as instructed by the [website](http://goby.compbio.cs.cmu.edu/Notung/download29.html#)
 - Created a text file to list all 16 species in the Orthogroup [link](/data/tree/Orthogroup_species.txt)
 - Used [NCBI Taxonomy tool](https://www.ncbi.nlm.nih.gov/Taxonomy/CommonTree/wwwcmt.cgi) to import the file above and save the tree as phylip
-- Imported both the [gene tree](/output/notung/pho5_ascomycetes_tree_20171115.txt) and the species tree in Notung and performed reconciliation
+- Substantially edited the tree based on [Shen et al 2016](http://www.g3journal.org/content/6/12/3927) phylogeny.
+- Also shortened the species names to match the notation used in the gene tree (e.g. Scer) and flipped the order.
+- Imported both the [gene tree](/output/notung/pho5_ascomycetes_tree_20171115.txt) and the [species tree](/output/notung/species_tree_reordered_20171122.phy) in Notung and performed reconciliation
+- The result is below
+    ![notung reconciled gene tree](/output/notung/notung_reconciled_20171122.phy.ntg)
