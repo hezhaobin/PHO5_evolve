@@ -1,0 +1,39 @@
+(
+'Aspergillus nidulans':4,
+'Neurospora crassa':4,
+(
+'Clavispora lusitaniae':4,
+'Yarrowia lipolytica':4,
+(
+'Lodderomyces elongisporus':4,
+(
+'Candida tropicalis':4,
+'Candida parapsilosis':4,
+'Candida albicans':4
+)Candida:4,
+'Debaryomyces hansenii':4,
+'Meyerozyma guilliermondii':4
+)Debaryomycetaceae:4,
+(
+'Eremothecium gossypii':4,
+'Kluyveromyces lactis':4,
+'Naumovozyma castellii':4,
+'[Candida] glabrata':4,
+(
+'Saccharomyces mikatae':4,
+'Saccharomyces paradoxus':4,
+'Saccharomyces cerevisiae':4,
+'Saccharomyces bayanus':4
+)Saccharomyces:4,
+(
+'Lachancea kluyveri':4,
+'Lachancea waltii':4
+)Lachancea:4
+)Saccharomycetaceae:4
+)Saccharomycetales:4,
+(
+'Schizosaccharomyces octosporus':4,
+'Schizosaccharomyces japonicus':4,
+'Schizosaccharomyces pombe':4
+)Schizosaccharomyces:4
+)Ascomycota:4;

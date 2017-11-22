@@ -45,6 +45,6 @@ Notes
 
 Separate README.md files under `docs` folder
 
-## [8 novembre 2017] predict signal peptide
+### [8 novembre 2017] predict signal peptide
 
-
+### [22 novembre 2017] test Notung reconciliation
