@@ -12,7 +12,7 @@ tags:
   - pho
 ---
 
-[Link](/docs/2017-11-15-elife-decision-on-phosphatase-evolution-paper) to the previous post on this topic.
+[Link](/docs/2017-11-15-elife-decision-on-phosphatase-evolution-paper.md) to the previous post on this topic.
 
 ## On gene conversion as an alternative explanation for the gene tree
 
@@ -34,7 +34,7 @@ How can we look for evidence for such concerted evolution, or the lack thereof, 
 
 ## On editor's critiques
 
-In [yesterday's notes](/docs/2017-11-15-elife-decision-on-phosphatase-evolution-paper), I expressed my doubts on whether including more species is necessary or useful. Today after showing the critique to Peter, he immediately saw the point which I missed: the prolem is not _how many_ species, but _which_ species we included. Think of it this way: in the "big" tree of fungi, where do the species we analyzed lie? If they all lie within a small group of species, then we cannot draw the conclusion as we did in the paper, namely this repeated duplication and functional partitioning happened recently throughout fungi. To support such a statement, one needs to carefully pick the species to represent all major groups. This is the task I need to accomplish. 
+In [yesterday's notes](/docs/2017-11-15-elife-decision-on-phosphatase-evolution-paper.md), I expressed my doubts on whether including more species is necessary or useful. Today after showing the critique to Peter, he immediately saw the point which I missed: the prolem is not _how many_ species, but _which_ species we included. Think of it this way: in the "big" tree of fungi, where do the species we analyzed lie? If they all lie within a small group of species, then we cannot draw the conclusion as we did in the paper, namely this repeated duplication and functional partitioning happened recently throughout fungi. To support such a statement, one needs to carefully pick the species to represent all major groups. This is the task I need to accomplish. 
 
 ## On clustered amino acid substitutions and epistasis in protein evolution
 
