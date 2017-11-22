@@ -11,7 +11,7 @@ tags:
   - pho
 ---
 
-[Link](/post/2017/11/16/chat-with-peter-on-phosphatase-evolution) to discussion with Peter on this topic.
+[Link](/docs/2017-11-16-chat-with-peter-on-phosphatase-evolution) to discussion with Peter on this topic.
 
 Our paper submitted to eLife was returned without review. Below are the critiques, followed by my thoughts
 
