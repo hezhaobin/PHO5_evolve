@@ -24,3 +24,4 @@ After [talking to Josh](/docs/2017-11-18-discuss-with-josh-on-phosphatase-duplic
 - Imported both the [gene tree](/output/notung/pho5_ascomycetes_tree_20171115.txt) and the [species tree](/output/notung/species_tree_reordered_20171122.phy) in Notung and performed reconciliation
 - The result is below
     ![notung reconciled gene tree](/output/notung/notung_reconciled_20171122.phy.ntg)
+- I am still learning Notung's functionality. I found "Rooting analysis" and "Rearrangement", both of which are based on the idea of minimizing the total DL score (# of duplication/loss events), are potentially useful. I need to read the manual more carefully and test them.
