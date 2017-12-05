@@ -1,0 +1,142 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     Starting SMS v1.8.1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input alignment    : pho5_probcons_aln_20170710_phy
+Data type          : Protein
+Number of taxa     : 16
+Number of sites    : 532
+Number of branches : 29
+Criterion          : AIC
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 1 : Set a fixed topology
+Step 2 : Select the best decoration
+	AIC=17217.61206	decoration : '+G+I'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3 : Select the best matrix
+	AIC=17139.14532	matrix : 'WAG'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 4 : Select the best final decoration
+	AIC=17139.12982	decoration : '+G+I+F'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected model				: WAG +G+I+F
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Substitution model			: WAG
+Equilibrium frequencies			: Empirical
+Proportion of invariable sites		: estimated (0.060)
+Number of substitution rate categories	: 4
+Gamma shape parameter			: estimated (2.751)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Suggested citations:
+SMS
+ Vincent Lefort, Jean-Emmanuel Longueville, Olivier Gascuel.
+ "SMS: Smart Model Selection in PhyML."
+ Molecular Biology and Evolution, msx149, 2017.
+PhyML
+ S. Guindon, JF. Dufayard, V. Lefort, M. Anisimova, W. Hordijk, O. Gascuel
+ "New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0."
+ Systematic Biology. 2010. 59(3):307-321.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Additional step : Infer tree with model : 'WAG +G+I+F'
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 pho5_probcons_aln_20170710_phy
+                . Data type:					 aa
+                . Alphabet size:				 20
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 1000
+                . Compute approximate likelihood ratio test:	 no
+                . Model name:					 WAG
+                . Proportion of invariable sites:		 0.060000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 2.751000
+                . 'Middle' of each rate class:			 mean
+                . Amino acid equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 SPRs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 no
+                . Run ID:					 none
+                . Random seed:					 1504558734
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+. Refining the tree...
+
+
+. Log likelihood of the current tree: -8517.278870.
+
+
+. Non parametric bootstrap analysis 
+
+  [....................]   20/1000
+  [....................]   40/1000
+  [....................]   60/1000
+  [....................]   80/1000
+  [....................]  100/1000
+  [....................]  120/1000
+  [....................]  140/1000
+  [....................]  160/1000
+  [....................]  180/1000
+  [....................]  200/1000
+  [....................]  220/1000
+  [....................]  240/1000
+  [....................]  260/1000
+  [....................]  280/1000
+  [....................]  300/1000
+  [....................]  320/1000
+  [....................]  340/1000
+  [....................]  360/1000
+  [....................]  380/1000
+  [....................]  400/1000
+  [....................]  420/1000
+  [....................]  440/1000
+  [....................]  460/1000
+  [....................]  480/1000
+  [....................]  500/1000
+  [....................]  520/1000
+  [....................]  540/1000
+  [....................]  560/1000
+  [....................]  580/1000
+  [....................]  600/1000
+  [....................]  620/1000
+  [....................]  640/1000
+  [....................]  660/1000
+  [....................]  680/1000
+  [....................]  700/1000
+  [....................]  720/1000
+  [....................]  740/1000
+  [....................]  760/1000
+  [....................]  780/1000
+  [....................]  800/1000
+  [....................]  820/1000
+  [....................]  840/1000
+  [....................]  860/1000
+  [....................]  880/1000
+  [....................]  900/1000
+  [....................]  920/1000
+  [....................]  940/1000
+  [....................]  960/1000
+  [....................]  980/1000
+  [....................] 1000/1000
+  
+. Time used 5h0m40s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo

@@ -10,25 +10,25 @@
 	 (
 	  'Scer',
 	  'Spar'
-	 ),
+	 )'Scer-Spar',
 	 'Smik'
 	),
 	'Sbay'
        )Saccharomyces,
        'Cgla'
-      ),
+      )'Scer-Cgla',
       'Ncas'
-     ),
+     )'Scer-Ncas',
      (
       (
        'Egos',
        'Klac'
-      ),
+      )'Klac-Egos',
       (
        'Lklu',
        'Lwal'
       )Lachancea
-     )
+     )'Lklu-Klac'
     )Saccharomycetaceae,
     (
      'Clus',
@@ -36,7 +36,7 @@
       (
        'Dhan',
        'Cgui'
-      ),
+      )'Cgui-Dhan',
       (
        (
 	'Lelo',
@@ -46,7 +46,7 @@
 	'Ctro',
 	'Calb'
        )
-      )
+      )'Cpar-Ctro'
      )Candida
     )Debaryomycetaceae
    )Saccharomycetales,
@@ -55,13 +55,13 @@
   (
    'Anid',
    'Ncra'
-  )
+  )'Anid-Ncra'
  ),
  (
   'Sjap',
   (
    'Soct',
    'Spom'
-  )
+  )'Soct-Spom'
  )Schizosaccharomyces
 )Ascomycota;
