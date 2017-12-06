@@ -22,13 +22,13 @@ We loaded both the gene tree from the last step and a species tree into Notung (
 
 ## Supplementary files and figures
 
-[**Supplementary file 1**](../data/alignment/current_Pho5_aa_Ascomycetes_aligned.phy). Multiple alignment of 53 _PHO5_ homologs from 23 Ascomycete yeast species.
+[**Supplementary file 1**](./supplementary/Supplementary_file_1_alignment.phy). Multiple alignment of 53 _PHO5_ homologs from 23 Ascomycete yeast species.
 
-[**Supplementary file 2**](../data/gene_tree/current_genetree_Pho5_all_ascomycetes_bootstrap100.txt). Maximum likelihood gene (protein) tree for the 53 _PHO5_ homolog sequences.
+[**Supplementary file 2**](./supplementary/Supplementary_file_2_ML_gene_tree.txt). Maximum likelihood gene (protein) tree for the 53 _PHO5_ homolog sequences.
 
-[**Supplementary file 3**](../output/notung/notung_reconciled_20171206.phy.ntg). Reconciled gene tree with duplication and loss events marked, without rearrangement.
+[**Supplementary file 3**](./supplementary/Supplementary_file_3_notung_without_rearrangement.ntg). Reconciled gene tree with duplication and loss events marked, without rearrangement.
 
-[**Supplementary file 4**](../output/notung/notung_reconciled_rearranged_20171206.phy.ntg). Reconciled gene tree with duplication and loss events marked, after rearrangement with default edge weight threshold (90.0)
+[**Supplementary file 4**](./supplementary/Supplementary_file_4_notung_with_rearrangement.ntg). Reconciled gene tree with duplication and loss events marked, after rearrangement with default edge weight threshold (90.0)
 
 **Supplementary figure 1** Reconciled gene tree using Notung 2.9. Inferred duplication events are marked with "D" in red font. Loss events are shown in gray. Green numbers next to the branches indicate bootstrap support (max: 100). Branches without bootstrap values are those added or swapped by the Rearrangement function in Notung 2.9 to minimize the total event score.
 
