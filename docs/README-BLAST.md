@@ -10,6 +10,10 @@ This analysis uses the annotated gene ORFs by Scannell et al 2012, and hopefully
 
 # Analysis
 
+## [5 dec 2017] Added _N. crassa_
+
+In my last attempt to assemble a _complete_ list of _PHO5_ homologs, I identified two putative homologs in _N. crassa_ through HMMER but didn't actually add the sequence. Today I added the two sequences to the unaligned fasta file (dated today), and plan to subject the new multiple sequence file to ProbCons alignment and PhyML phylogenetic reconstruction.
+
 ## [6 nov 2017] Cross-check Orthogroup completeness
 
 ### _ScPMU1_
@@ -78,7 +82,7 @@ Same as above
 
 - Similarly searched _L. waltii_ using tblasn, and got 4 hits. But because I only have the chromosome sequences, not the feature ones, I didn't identify which genes they correspond to.
     
-- Search homologs of _ScPMU1_ in other Ascomycetes using  BLASTP or tBLASTn on external websites
+- Search homologs of _ScPHO5_ in other Ascomycetes using  BLASTP or tBLASTn on external websites
 
     | Species            | SGD | CGD | GRYC | HMMER | BLAST | Orthogroup |
     | ------------------ |:---:|:---:|:----:|:-----:|:-----:| ---------- |

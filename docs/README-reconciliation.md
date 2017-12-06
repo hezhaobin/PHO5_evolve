@@ -14,17 +14,9 @@ After [talking to Josh](/docs/2017-11-18-discuss-with-josh-on-phosphatase-duplic
 
 ## Notes
 
-### [22 nov 2017] Install Notung 2.9 and format gene tree to annotate species names
+### [6 dec 2017] Added Ncra sequences (2)
 
-- Installed Notung 2.9 as instructed by the [website](http://goby.compbio.cs.cmu.edu/Notung/download29.html#)
-- Created a text file to list all 16 species in the Orthogroup [link](/data/tree/Orthogroup_species.txt)
-- Used [NCBI Taxonomy tool](https://www.ncbi.nlm.nih.gov/Taxonomy/CommonTree/wwwcmt.cgi) to import the file above and save the tree as phylip
-- Substantially edited the tree based on [Shen et al 2016](http://www.g3journal.org/content/6/12/3927) phylogeny.
-- Also shortened the species names to match the notation used in the gene tree (e.g. Scer) and flipped the order.
-- Imported both the [gene tree](/output/notung/pho5_ascomycetes_tree_20171115.txt) and the [species tree](/output/notung/species_tree_reordered_20171122.phy) in Notung and performed reconciliation
-- The result is below
-    ![notung reconciled gene tree](/output/notung/notung_reconciled_20171122.phy.ntg)
-- I am still learning Notung's functionality. I found "Rooting analysis" and "Rearrangement", both of which are based on the idea of minimizing the total DL score (# of duplication/loss events), are potentially useful. I need to read the manual more carefully and test them.
+I appended 2 _N. crassa_ homologs to the alignment and redid PhyML reconstruction and Notung. The event score changed from yesterday's notes, but the broad conclusion didn't.
 
 ### [5 dec 2017] Species tree inconsistency and more Notung dives
 
@@ -46,11 +38,24 @@ After [talking to Josh](/docs/2017-11-18-discuss-with-josh-on-phosphatase-duplic
 
     - Rearranging:
 
-	according to the manual, this function is designed to "rearrange weakly supported regions in a gene tree to produce alternate event histories with minimum DL Score". Here is my understanding of what it does: First, the program determines a series of branches (edges) as weakly supported, based on the "Edge Weight Threshold", which is set to 90% of the maximum by default. Next, it explores alternative event histories by allowing those weakly supported edges to be rearranged among themselves, while keeping the strongly-supported edges in place. This produces the rearranged tree with an event score smaller than the beginning value. 
+        according to the manual, this function is designed to "rearrange weakly supported regions in a gene tree to produce alternate event histories with minimum DL Score". Here is my understanding of what it does: First, the program determines a series of branches (edges) as weakly supported, based on the "Edge Weight Threshold", which is set to 90% of the maximum by default. Next, it explores alternative event histories by allowing those weakly supported edges to be rearranged among themselves, while keeping the strongly-supported edges in place. This produces the rearranged tree with an event score smaller than the beginning value. 
 
-	using the default threshold for rearrangement, I got a rearranged tree with a dramatically lower event score -- 21 dups and 16 losses compared to 29 dups and 45 losses before the procedure. The resulting tree now places all 5 Klac genes together, suggesting that all duplication events happened post speciation for _K. lactis_. Below are the results before and after the rearrangement.
+        using the default threshold for rearrangement, I got a rearranged tree with a dramatically lower event score -- 21 dups and 16 losses compared to 29 dups and 45 losses before the procedure. The resulting tree now places all 5 Klac genes together, suggesting that all duplication events happened post speciation for _K. lactis_. Below are the results before and after the rearrangement.
 
-	Before             |  After
-	:-----------------:|:-------------------------:
-	![](../output/notung/notung_reconciled_20171205.png)  |  ![](../output/notung/notung_reconciled_rearranged_20171205.png)
+Before             |  After
+:-----------------:|:-------------------------:
+![](../output/notung/notung_reconciled_20171205.png)  |  ![](../output/notung/notung_reconciled_rearranged_20171205.png)
+
+### [22 nov 2017] Install Notung 2.9 and format gene tree to annotate species names
+
+- Installed Notung 2.9 as instructed by the [website](http://goby.compbio.cs.cmu.edu/Notung/download29.html#)
+- Created a text file to list all 16 species in the Orthogroup [link](/data/tree/Orthogroup_species.txt)
+- Used [NCBI Taxonomy tool](https://www.ncbi.nlm.nih.gov/Taxonomy/CommonTree/wwwcmt.cgi) to import the file above and save the tree as phylip
+- Substantially edited the tree based on [Shen et al 2016](http://www.g3journal.org/content/6/12/3927) phylogeny.
+- Also shortened the species names to match the notation used in the gene tree (e.g. Scer) and flipped the order.
+- Imported both the [gene tree](/output/notung/pho5_ascomycetes_tree_20171115.txt) and the [species tree](/output/notung/species_tree_reordered_20171122.phy) in Notung and performed reconciliation
+- The result is below
+    ![notung reconciled gene tree](/output/notung/notung_reconciled_20171122.phy.ntg)
+- I am still learning Notung's functionality. I found "Rooting analysis" and "Rearrangement", both of which are based on the idea of minimizing the total DL score (# of duplication/loss events), are potentially useful. I need to read the manual more carefully and test them.
+
 
