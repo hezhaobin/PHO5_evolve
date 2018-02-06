@@ -4,7 +4,7 @@ author: Bin He
 date: 2 fev 2019
 ---
 
-## Reviewer \#1
+## Reviewer 1
 
 The authors demonstrated the phosphatase gene families in many Ascomycetes dynamically evolved through repeated gene duplication, functional specialization, and gene loss. Specifically, they showed the specialization of duplicate genes CgPMU2 and CgPMU3 at the level of transcription and substrate utilization. They identified CgPMU3 as a possible link to functionally compensate for the loss of ScPHO3 homolog in Candida glabrata (C. glabrata), in response to thiamine starvation. They showed that the recent duplicate gene pair, CgPMU2 and CgPMU3, have functionally diverged to primarily respond to phosphate starvation and thiamine starvation, respectively. Function divergence of duplicate genes in response to phosphate starvation or thiamine starvation appears to also occur in Saccharomyces cerevisiae and Schizosaccharomyces pombe. By allele swap, they further compared the enzyme specificities of these duplicate genes from these three species. The common amino acids shared between CgPMU2 and CgPMU3 appears to provide function similar to CgPMU3, in terms of the specificity to TPP. They nicely showed the dynamic evolution of these two gene families and I appreciate the functional data they performed. This work will benefit our understanding of the dynamic functional divergence of duplicate genes. 
 
