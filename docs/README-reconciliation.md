@@ -14,6 +14,10 @@ After [talking to Josh](/docs/2017-11-18-discuss-with-josh-on-phosphatase-duplic
 
 ## Notes
 
+### [07 fev 2018]
+
+I found out that the save whole tree as image option under File menu doesn't save the bootstrap values (in green font) even though they are displayed in the viewport. I tried to use the save current view as image option, which does preserve the green bootstrap values, but wouldn't allow me to resize and capture the whole tree (the y-axis is over the screen range). Instead, I decide to remove the text about the bootstrap values from the legend.
+
 ### [6 dec 2017] Added Ncra sequences (2)
 
 I appended 2 _N. crassa_ homologs to the alignment and redid PhyML reconstruction and Notung. The event score changed from yesterday's notes, but the broad conclusion didn't.

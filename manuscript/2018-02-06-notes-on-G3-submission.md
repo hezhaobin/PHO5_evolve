@@ -2,7 +2,7 @@
 title: Notes on G3 submission 
 author: Bin He
 date: 6 fev 2018
-catelog:
+categories:
   - manuscript
   - collaboration
 tags:

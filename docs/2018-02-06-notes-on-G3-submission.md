@@ -1,0 +1,1 @@
+../manuscript/2018-02-06-notes-on-G3-submission.md
