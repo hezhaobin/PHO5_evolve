@@ -36,6 +36,7 @@ We loaded both the gene tree from the last step and a species tree into Notung (
 
 ![](supplementary/Supplementary_figure_1_synteny.jpg)
 
-**Supplementary figure 2** Reconciled gene tree using Notung 2.9. Inferred duplication events are marked with "D" in red font. Loss events are shown in gray. Green numbers next to the branches indicate bootstrap support (max: 100). Branches without bootstrap values are those added or swapped by the Rearrangement function in Notung 2.9 to minimize the total event score.
+**Supplementary figure 2** Reconciled gene tree for the _PHO5_ family showing inferred duplication and loss events. (A) Reconciled tree without rearrangement. Inferred duplication events are marked with "D" in red font. Loss events are shown in gray. Species and gene names are labeled at the leaf nodes, separated by "|". (B) Reconciled and rearranged gene tree. During the rearrangement operation, Notung (v2.9) explores alternative topologies by swapping weakly supported branches with bootstrap values below 90/100 in the reconstructed gene tree. The result is a topology that minimizes the total event score (23/15 duplication/loss events compared to 29/48 before rearrangement).
 
-![](supplementary/Supplementary_figure_2_reconciled_gene_tree.png)
+![A](../output/notung/notung_reconciled_20171206.png)
+![B](../output/notung/notung_reconciled_rearranged_20171206.png)
