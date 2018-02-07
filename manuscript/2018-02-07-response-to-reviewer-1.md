@@ -14,13 +14,19 @@ tags:
 
 ... the authors focus on adaptation but should meanwhile consider and discuss the effects of genetic drift in many cases. Additionally, are there any features implying genomic fragile sites or recombination hotpots in any species that might link to the repeated changes here?
 
-## Notes to Dennis
+## Notes
 
-I found that we used the term "adapt" five times, once in the last sentence of the Abstract, twice in the first paragraph of the Introduction, and twice in the first paragraph of the Discussion. Those in the Introduction don't matter because it was not a direct statement on our work. The other three times were for the same message: the convergent evolution in the _PHO5_ and _PMU_ families suggest common selective pressures for the specialization of the phosphatases against different nutrient starvation conditions.
+To be clear, the molecular events generating mutations, including duplications and promoter / protein changes, are random. The discussion about adaptation is with respect to selection favoring certain types of mutations.
 
-### Mutation
+Throughout the manuscript, we used the term "adapt" five times, once in the Abstract, twice in the first paragraph of Introduction, and twice in the first paragraph of Discussion. Those in Introduction don't matter because it was not a direct statement on our work. The other three times were for the same message, namely the convergent evolution we observed in the _PHO5_ and _PMU_ families suggest common selective pressures for the specialization of the phosphatases against different nutrient starvation conditions. What's curious is the fact that such gene duplication and specialization have been accompanied by gene losses. If it is useful to have specialized phosphatases, why lose them and re-evolve them again? For this, we speculated that the selective pressure favoring the presence of multiple, specialized phosphatases is either not very strong, or its intensity changes over time and differs between species.
 
-**Question: could the _PHO5_ genes be located in a particular part of the chromosome that makes them especially prone to gene duplication and loss?**
+After discussing with John Logsdon, I realize that we need to separate the different steps during the evolution of the gene families, namely gene duplication, transcriptional and/or substrate specialization, and finally, preservation of the specialized phosphatase system.
+
+### Gene duplication
+
+Reviewer 1 asked whether suggested is with respect to the frequency of such mutations. In other words, the question is whether the evolutionary gain and loss of the phosphatase encoding genes, and the subsequent evolution of their regulation and function, happen more often than other gene families, and if so, could it be because the ancestral _PHO5_ gene resided in a particular part of the chromosome that is especially prone to gene duplication and loss?
+
+We 
 
 No. They are not in a subtelomeric region that is known to harbor more structural variation than the core of a chromosome. Moreover, the _PHO5_ homologs in different species often reside in non-syntenic (based on YGOB) regions of their genomes, making it difficult for one to believe a mutational cause for the repeated gene gain and loss.
 
