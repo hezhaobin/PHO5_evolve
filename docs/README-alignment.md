@@ -35,3 +35,5 @@ Learned about this structure guided alignment tool from Jan's lectures. Tried it
 > 
 > Parameters for aligning sequences within groups in the first alignment stage:
 > Align sequences within groups in the first alignment stage by: maffti
+
+In ScPho5, amino acids 66-80 and 331-347 encode the two histidine acid phosphatase domains. The histidine residue is conserved in the alignment.

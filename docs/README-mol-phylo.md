@@ -19,7 +19,14 @@ Materials & Method
 Notes
 =====
 
-## 7 novembre 2017
+## 24 octobre 2018
+Reapply PhyML on the Promals3D alignment for Ascomycetes
+Options:
+- Model selection: AIC
+- Starting tree: BioNJ
+- Type of tree improvement: SPR
+- Number of random starting tree: 5
+- Fast likelihood-based method: aLRT SH-like
 
 
 ## 4 septembre 2017
