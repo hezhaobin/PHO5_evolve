@@ -1,0 +1,203 @@
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+                                  ---  PhyML 20120412  ---                                             
+                            http://www.atgc-montpellier.fr/phyml                                          
+                         Copyright CNRS - Universite Montpellier II                                 
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+. Sequence filename: 			pho5_aa_ascomycetes_promals3d_20181024_phy
+. Data set: 				#1
+. Random init tree: 			#1
+. Tree topology search : 		SPRs
+. Initial tree: 			random tree
+. Model of amino acids substitution: 	WAG
+. Number of taxa: 			53
+. Log-likelihood: 			-31880.09941
+. Unconstrained likelihood: 		-5251.77379
+. Parsimony: 				6531
+. Tree size: 				24.30897
+. Discrete gamma model: 		Yes
+  - Number of categories: 		4
+  - Gamma shape parameter: 		2.187
+. Proportion of invariant: 		0.023
+
+. Run ID:				none
+. Random seed:				1540427170
+. Subtree patterns aliasing:		no
+. Version:				20120412
+. Time used:				0h2m46s (166 seconds)
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ Suggested citations:
+ S. Guindon, JF. Dufayard, V. Lefort, M. Anisimova, W. Hordijk, O. Gascuel
+ "New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0."
+ Systematic Biology. 2010. 59(3):307-321.
+
+ S. Guindon & O. Gascuel
+ "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood"
+ Systematic Biology. 2003. 52(5):696-704.
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+. Sequence filename: 			pho5_aa_ascomycetes_promals3d_20181024_phy
+. Data set: 				#1
+. Random init tree: 			#2
+. Tree topology search : 		SPRs
+. Initial tree: 			random tree
+. Model of amino acids substitution: 	WAG
+. Number of taxa: 			53
+. Log-likelihood: 			-31880.19602
+. Unconstrained likelihood: 		-5251.77379
+. Parsimony: 				6532
+. Tree size: 				24.93340
+. Discrete gamma model: 		Yes
+  - Number of categories: 		4
+  - Gamma shape parameter: 		2.187
+. Proportion of invariant: 		0.023
+
+. Run ID:				none
+. Random seed:				1540427170
+. Subtree patterns aliasing:		no
+. Version:				20120412
+. Time used:				0h3m49s (229 seconds)
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ Suggested citations:
+ S. Guindon, JF. Dufayard, V. Lefort, M. Anisimova, W. Hordijk, O. Gascuel
+ "New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0."
+ Systematic Biology. 2010. 59(3):307-321.
+
+ S. Guindon & O. Gascuel
+ "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood"
+ Systematic Biology. 2003. 52(5):696-704.
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+. Sequence filename: 			pho5_aa_ascomycetes_promals3d_20181024_phy
+. Data set: 				#1
+. Random init tree: 			#3
+. Tree topology search : 		SPRs
+. Initial tree: 			random tree
+. Model of amino acids substitution: 	WAG
+. Number of taxa: 			53
+. Log-likelihood: 			-31880.19601
+. Unconstrained likelihood: 		-5251.77379
+. Parsimony: 				6532
+. Tree size: 				24.93756
+. Discrete gamma model: 		Yes
+  - Number of categories: 		4
+  - Gamma shape parameter: 		2.187
+. Proportion of invariant: 		0.023
+
+. Run ID:				none
+. Random seed:				1540427170
+. Subtree patterns aliasing:		no
+. Version:				20120412
+. Time used:				0h5m28s (328 seconds)
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ Suggested citations:
+ S. Guindon, JF. Dufayard, V. Lefort, M. Anisimova, W. Hordijk, O. Gascuel
+ "New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0."
+ Systematic Biology. 2010. 59(3):307-321.
+
+ S. Guindon & O. Gascuel
+ "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood"
+ Systematic Biology. 2003. 52(5):696-704.
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+. Sequence filename: 			pho5_aa_ascomycetes_promals3d_20181024_phy
+. Data set: 				#1
+. Random init tree: 			#4
+. Tree topology search : 		SPRs
+. Initial tree: 			random tree
+. Model of amino acids substitution: 	WAG
+. Number of taxa: 			53
+. Log-likelihood: 			-31880.19623
+. Unconstrained likelihood: 		-5251.77379
+. Parsimony: 				6532
+. Tree size: 				24.92403
+. Discrete gamma model: 		Yes
+  - Number of categories: 		4
+  - Gamma shape parameter: 		2.187
+. Proportion of invariant: 		0.023
+
+. Run ID:				none
+. Random seed:				1540427170
+. Subtree patterns aliasing:		no
+. Version:				20120412
+. Time used:				0h3m34s (214 seconds)
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ Suggested citations:
+ S. Guindon, JF. Dufayard, V. Lefort, M. Anisimova, W. Hordijk, O. Gascuel
+ "New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0."
+ Systematic Biology. 2010. 59(3):307-321.
+
+ S. Guindon & O. Gascuel
+ "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood"
+ Systematic Biology. 2003. 52(5):696-704.
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+. Sequence filename: 			pho5_aa_ascomycetes_promals3d_20181024_phy
+. Data set: 				#1
+. Random init tree: 			#5
+. Tree topology search : 		SPRs
+. Initial tree: 			random tree
+. Model of amino acids substitution: 	WAG
+. Number of taxa: 			53
+. Log-likelihood: 			-31880.80703
+. Unconstrained likelihood: 		-5251.77379
+. Parsimony: 				6530
+. Tree size: 				24.92263
+. Discrete gamma model: 		Yes
+  - Number of categories: 		4
+  - Gamma shape parameter: 		2.187
+. Proportion of invariant: 		0.023
+
+. Run ID:				none
+. Random seed:				1540427170
+. Subtree patterns aliasing:		no
+. Version:				20120412
+. Time used:				0h3m54s (234 seconds)
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ Suggested citations:
+ S. Guindon, JF. Dufayard, V. Lefort, M. Anisimova, W. Hordijk, O. Gascuel
+ "New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0."
+ Systematic Biology. 2010. 59(3):307-321.
+
+ S. Guindon & O. Gascuel
+ "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood"
+ Systematic Biology. 2003. 52(5):696-704.
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+. Sequence filename: 			pho5_aa_ascomycetes_promals3d_20181024_phy
+. Data set: 				#1
+. Tree topology search : 		SPRs
+. Initial tree: 			BioNJ
+. Model of amino acids substitution: 	WAG
+. Number of taxa: 			53
+. Log-likelihood: 			-31880.19600
+. Unconstrained likelihood: 		-5251.77379
+. Parsimony: 				6532
+. Tree size: 				24.93947
+. Discrete gamma model: 		Yes
+  - Number of categories: 		4
+  - Gamma shape parameter: 		2.187
+. Proportion of invariant: 		0.023
+
+. Run ID:				none
+. Random seed:				1540427170
+. Subtree patterns aliasing:		no
+. Version:				20120412
+. Time used:				0h3m42s (222 seconds)
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ Suggested citations:
+ S. Guindon, JF. Dufayard, V. Lefort, M. Anisimova, W. Hordijk, O. Gascuel
+ "New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0."
+ Systematic Biology. 2010. 59(3):307-321.
+
+ S. Guindon & O. Gascuel
+ "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood"
+ Systematic Biology. 2003. 52(5):696-704.
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
