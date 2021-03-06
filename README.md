@@ -4,6 +4,14 @@ author: Bin He
 date: 5 juillet 2017
 ---
 
+Reference
+=========
+
+This work is now published:
+
+has JV, Iosue CL, Shaik NF, Selhorst K, He BZ, Wykoff DD. 2018. Dynamic Changes in Yeast Phosphatase Families Allow for Specialization in Phosphate and Thiamine Starvation. G3: Genes, Genomes, Genetics 8:2333–2343.
+
+http://www.g3journal.org/content/8/7/2333
 
 Background
 ==========
